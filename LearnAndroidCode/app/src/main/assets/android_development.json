@@ -1,0 +1,1126 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "name": "Android Application Basics",
+      "category": "Operating System",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Home",
+          "description": "Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets. Android's user interface is mainly based on direct manipulation,",
+          "url": "ad1.html"
+        },
+        {
+          "id": 1,
+          "name": "Android Introduction",
+          "description": "Android provides a rich application framework that allows you to build innovative apps and games for mobile devices in a Java language environment.",
+          "url": "ad2.html"
+        },
+        {
+          "id": 2,
+          "name": "Android Overview",
+          "description": "Android was built from the ground-up to enable developers to create compelling mobile applications that take full advantage of all a handset has to offer. It was built to be truly open. For example, an application can call upon any of the phone’s core functionality such as making calls, sending text messages, or using the camera, ",
+          "url": "ad3.html"
+        },
+        {
+          "id": 3,
+          "name": "Environment Setup",
+          "description": "Following is the list of software's you will need before you start your Android application programming.\n\nJava JDK5 or later version\n\nAndroid SDK\n\nJava Runtime Environment (JRE) 6\n\nAndroid Studio\n\nEclipse IDE for Java Developers (optional)\n\nAndroid Development Tools (ADT) Eclipse Plug-in (optional)",
+          "url": "ad4.html"
+        },
+        {
+          "id": 4,
+          "name": "Android Architecture",
+          "description": "Android is implemented in the form of a software stack architecture consisting of a Linux kernel, a runtime environment and corresponding libraries, an application framework and a set of applications. Applications are predominantly written in Java and run within individual instances of the Dalvik virtual machine.",
+          "url": "ad5.html"
+        },
+        {
+          "id": 5,
+          "name": "Application Components",
+          "description": "The Manifest File. Before the Android system can start an app component, the system must know that the component exists by reading the app's AndroidManifest.xml file (the \"manifest\" file). Your app must declare all its components in this file, which must be at the root of the app project directory.",
+          "url": "ad6.html"
+        },
+        {
+          "id": 6,
+          "name": "Resources Organizing and Accessing",
+          "description": "There are many more items which you use to build a good Android application. Apart from coding for the application, you take care of various other resources like static content that your code uses, such as bitmaps, colors, layout definitions, user interface strings, animation instructions, and more. These resources are always maintained separately in various sub-directories under res/ directory of the project.",
+          "url": "ad7.html"
+        },
+        {
+          "id": 7,
+          "name": "Activities",
+          "description": "An activity represents a single screen with a user interface just like window or frame of Java.Android activity is the subclass of ContextThemeWrapper class.",
+          "url": "ad8.html"
+        },
+        {
+          "id": 8,
+          "name": "Services",
+          "description": "Android - Services. A service is started when an application component, such as an activity, starts it by calling startService(). Once started, a service can run in the background indefinitely, even if the component that started it is destroyed.",
+          "url": "ad9.html"
+        },
+        {
+          "id": 9,
+          "name": "Broadcast Receivers",
+          "description": "A broadcast receiver (short receiver ) is an Android component which allows you to register for system or application events. All registered receivers for an event are notified by the Android runtime once this event happens.",
+          "url": "ad10.html"
+        },
+        {
+          "id": 10,
+          "name": "Content Providers",
+          "description": "A content provider manages access to a central repository of data. You implement a provider as one or more classes in an Android application, along with elements in the manifest file. One of your classes implements a subclass ContentProvider , which is the interface between your provider and other applications.",
+          "url": "ad11.html"
+        },
+        {
+          "id": 11,
+          "name": "Fragments",
+          "description": "Adding a user interface. A fragment is usually used as part of an activity's user interface and contributes its own layout to the activity. To provide a layout for a fragment, you must implement the onCreateView() callback method, which the Android system calls when it's time for the fragment to draw its layout.",
+          "url": "ad12.html"
+        },
+        {
+          "id": 12,
+          "name": "Intents and Filters",
+          "description": "An Intent is a messaging object you can use to request an action from another app component. Although intents facilitate communication between components in several ways, there are three fundamental use-cases: \nTo start an activity:\nTo start a service:\nTo deliver a broadcast:",
+          "url": "ad13.html"
+        },
+        {
+          "id": 13,
+          "name": "Styles and Themes",
+          "description": "A style is a collection of properties that specify the look and format for a View or window. A style can specify properties such as height, padding, font color, font size, background color, and much more. A style is defined in an XML resource that is separate from the XML that specifies the layout.",
+          "url": "ad14.html"
+        },
+        {
+          "id": 14,
+          "name": "Custom Components",
+          "description": "Android offers a sophisticated and powerful componentized model for building your UI, based on the fundamental layout classes: View and ViewGroup. To start with, the platform includes a variety of prebuilt View and ViewGroup subclasses — called widgets and layouts, respectively — that you can use to construct your UI.",
+          "url": "ad15.html"
+        },
+        {
+          "id": 15,
+          "name": "UI Layouts",
+          "description": "A layout defines the visual structure for a user interface, such as the UI for an activity or app widget. You can declare a layout in two ways: Declare UI elements in XML. Android provides a straightforward XML vocabulary that corresponds to the View classes and subclasses, such as those for widgets and layouts.",
+          "url": "ad16.html"
+        },
+        {
+          "id": 16,
+          "name": "UI Controls",
+          "description": "Android provides a wide variety of controls you can use in your UI, such as buttons, text fields, seek bars, checkboxes, zoom buttons, toggle buttons, and many more. Adding an input control to your UI is as simple as adding an XML element to your XML layout.",
+          "url": "ad17.html"
+        },
+        {
+          "id": 17,
+          "name": "Event Handling",
+          "description": "Like button presses or screen touch etc. ... Event Listeners − An event listener is an interface in the View class that contains a single callback method. ... You will use onClick() event handler to handle such event.",
+          "url": "ad18.html"
+        },
+        {
+          "id": 18,
+          "name": "Drag and Drop",
+          "description": "With the Android drag/drop framework, you can allow your users to move data from one View to another View in the current layout using a graphical drag and drop gesture. The framework includes a drag event class, drag listeners, and helper methods and classes.\n\nAlthough the framework is primarily designed for data movement, you can use it for other UI actions. For example, you could create an app that mixes colors when the user drags a color icon over another icon. The rest of this topic, however, describes the framework in terms of data movement.",
+          "url": "ad19.html"
+        },
+        {
+          "id": 19,
+          "name": "Notifications",
+          "description": "A notification is a message you can display to the user outside of your application's normal UI. When you tell the system to issue a notification, it first appears as an icon in the notification area. To see the details of the notification, the user opens the notification drawer. Both the notification area and the notification drawer are system-controlled areas that the user can view at any time.",
+          "url": "ad20.html"
+        },
+        {
+          "id": 20,
+          "name": "Location Based Services",
+          "description": "The Google Location Services API, part of Google Play Services, provides a more powerful, high-level framework that automatically handles location providers, user movement, and location accuracy. It also handles location update scheduling based on power consumption parameters you provide. In most cases, you'll get better battery performance, as well as more appropriate accuracy, by using the Location Services API.",
+          "url": "ad21.html"
+        },
+        {
+          "id": 21,
+          "name": "Sending Email",
+          "description": "A String[] holding e-mail addresses that should be delivered to. A constant String that is associated with the Intent, used with ACTION_SEND to supply an alternative to EXTRA_TEXT as HTML formatted text. A constant string holding the desired subject line of a message.",
+          "url": "ad22.html"
+        },
+        {
+          "id": 22,
+          "name": "Sending SMS",
+          "description": "The Built-in SMS application solution is the easiest way, because you let device handle everything for you.\nSmsManager Example. Android layout file to textboxes (phone no, sms message) and button to send the SMS message. ...\nBuilt-in SMS application Example.",
+          "url": "ad23.html"
+        },
+        {
+          "id": 23,
+          "name": "Phone Calls",
+          "description": "Android provides Built-in applications for phone calls, in some occasions we may need to make a phone call through our application.",
+          "url": "ad24.html"
+        },
+        {
+          "id": 24,
+          "name": "Publishing Android Application",
+          "description": "Review the developer countries and merchant countries where you can distribute and sell apps.\nVisit the Google Play Developer Console.\nEnter basic information about your developer identity — name, email address, and so on. ...\nRead and accept the Developer Distribution Agreement for your country or region.",
+          "url": "ad25.html"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Java Basics",
+      "category": "Programming",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Home",
+          "description": "Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely used robust technology.",
+          "url": "jd1.html"
+        },
+        {
+          "id": 1,
+          "name": "Introduction",
+          "description": "Java is a simple and yet powerful object oriented programming language and it is in many respects similar to C++. Java originated at Sun Microsystems, Inc. in 1991. It was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc.",
+          "url": "jd2.html"
+        },
+        {
+          "id": 2,
+          "name": "Overview",
+          "description": "Java is one of the world's most important and widely used computer languages, and it has held this distinction for many years. Unlike some other computer languages whose influence has weared with passage of time, while Java's has grown.\n\nAs of 2016, Java is one of the most popular programming languages in use, particularly for client-server web applications, with a reported 9 million developers using and working on it.",
+          "url": "jd3.html"
+        },
+        {
+          "id": 3,
+          "name": "Environment Setup",
+          "description": "Assuming you have installed Java in c:\\Program Files\\java\\jdk directory:\n\nRight-click on 'My Computer' and select 'Properties'.\n\nClick on the 'Environment variables' button under the 'Advanced' tab.\n\nNow, alter the 'Path' variable so that it also contains the path to the Java executable. Example, if the path is currently set to 'C:\\WINDOWS\\SYSTEM32', then change your path to read 'C:\\WINDOWS\\SYSTEM32;c:\\Program Files\\java\\jdk\\bin'.",
+          "url": "jd4.html"
+        },
+        {
+          "id": 4,
+          "name": "History of Java",
+          "description": "Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.",
+          "url": "jd5.html"
+        },
+        {
+          "id": 5,
+          "name": "What is Java",
+          "description": "Java is a computer programming language. It enables programmers to write computer instructions using English based commands, instead of having to write in numeric codes. It’s known as a “high-level” language because it can be read and written easily by humans. Like English, Java has a set of rules that determine how the instructions are written. These rules are known as its “syntax”. Once a program has been written, the high-level instructions are translated into numeric codes that computers can understand and execute.",
+          "url": "jd6.html"
+        },
+        {
+          "id": 6,
+          "name": "Features of Java",
+          "description": "There is given many features of java. They are also known as java buzzwords. The Java Features given below are simple and easy to understand.\n\nSimple\nObject-Oriented\nPlatform independent\nSecured\nRobust\nArchitecture neutral\nPortable\nDynamic\nInterpreted\nHigh Performance\nMultithreaded\nDistributed",
+          "url": "jd7.html"
+        },
+        {
+          "id": 7,
+          "name": "JDK vs JRE vs JVM",
+          "description": "JDK (Java Development Kit)\nJDK contains everything that will be required to develop and run Java application.\n\nJRE (Java Run time Environment)\nJRE contains everything required to run Java application which has already been compiled. It doesn’t contain the code library required to develop Java application.\n\nJVM (Java Virtual Machine)\nJVM is a virtual machine which work on top of your operating system to provide a recommended environment for your compiled Java code. JVM only works with bytecode. Hence you need to compile your Java application(.java) so that it can be converted to bytecode format (also known as the .class file). Which then will be used by JVM to run application. JVM only provide the environment It needs the Java code library to run applications.",
+          "url": "jd8.html"
+        },
+        {
+          "id": 8,
+          "name": "OOPs Concept",
+          "description": "Object means a real word entity such as pen, chair, table etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance by providing some concepts:\n\nObject\nClass\nInheritance\nPolymorphism\nAbstraction\nEncapsulation",
+          "url": "jd9.html"
+        },
+        {
+          "id": 9,
+          "name": "Basic Syntax",
+          "description": "When we consider a Java program it can be defined as a collection of objects that communicate via invoking each others methods. Let us now briefly look into what do class, object, methods and instance variables mean.\n\npublic class SimpleProgram {\n\n    public static void main(String []args) {\n       System.out.println(\"Simple Test Program\");\n    }\n}\t\n",
+          "url": "jd10.html"
+        },
+        {
+          "id": 10,
+          "name": "Variable",
+          "description": "Variables are used to hold value in program. In this lesson of Java tutorial we will be learning about how to use variables in a program.\nJava Programming language defines mainly three kind of variables.\n\nInstance variables\nStatic Variables\nLocal Variables",
+          "url": "jd11.html"
+        },
+        {
+          "id": 11,
+          "name": "Data Types",
+          "description": "Datatype is a spacial keyword used to allocate sufficient memory space for the data, in other words Data type is used for representing the data in main memory (RAM) of the computer.\n\nIn general every programming language is containing three categories of data types. They are\n\nFundamental or primitive data types\nDerived data types\nUser defined data types.",
+          "url": "jd12.html"
+        },
+        {
+          "id": 12,
+          "name": "Class",
+          "description": "A class can be defined as a template/blue print that describes the behaviors/states that object of its type support.",
+          "url": "jd13.html"
+        },
+        {
+          "id": 13,
+          "name": "Object",
+          "description": "Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors -wagging, barking, eating. An object is an instance of a class.",
+          "url": "jd14.html"
+        },
+        {
+          "id": 14,
+          "name": "Methods",
+          "description": "A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console.",
+          "url": "jd15.html"
+        },
+        {
+          "id": 15,
+          "name": "Constructor",
+          "description": "Constructor is a block of code that allows you to create an object of class. This can also be called creating an instance. Constructor looks like a method but it’s not, for example methods can have any return type or no return type (considered as void) but constructors don’t have any return type not even void.",
+          "url": "jd16.html"
+        },
+        {
+          "id": 16,
+          "name": "Fields",
+          "description": "A Java field is a variable inside a class. For instance, in a class representing an employee, the Employee class might contain the following fields:\n\nname\nposition\nsalary\nhiredDate\nThe corresponding Java class could be defined like this:\n\npublic class Employee {\n  String  name     ;\n  String  position ;\n  int     salary   ;\n  Date    hiredDate;\n}",
+          "url": "jd17.html"
+        },
+        {
+          "id": 17,
+          "name": "Packages",
+          "description": "A Java package is a technique for organizing Java classes into namespaces similar to the modules of Modula, providing modular programming in Java. Java packages can be stored in compressed files called JAR files, allowing classes to be downloaded faster as groups rather than individually.",
+          "url": "jd18.html"
+        },
+        {
+          "id": 18,
+          "name": "Locale",
+          "description": "A Locale object represents a specific geographical, political, or cultural region. An operation that requires a Locale to perform its task is called locale-sensitive and uses the Locale to tailor information for the user. For example, displaying a number is a locale-sensitive operation— the number should be formatted according to the customs and conventions of the user's native country, region, or culture.",
+          "url": "jd19.html"
+        },
+        {
+          "id": 19,
+          "name": "Instance",
+          "description": "The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory. Note: The phrase \"instantiating a class\" means the same thing as \"creating an object.\" When you create an object, you are creating an \"instance\" of a class, therefore \"instantiating\" a class.",
+          "url": "jd20.html"
+        },
+        {
+          "id": 20,
+          "name": "Reference",
+          "description": "Abstract base class for reference objects. This class defines the operations common to all reference objects. Because reference objects are implemented in close cooperation with the garbage collector, this class may not be subclassed directly.",
+          "url": "jd21.html"
+        },
+        {
+          "id": 21,
+          "name": "Access Modifier",
+          "description": "Access modifiers help you set the level of access you want for your Class, variables as well as Methods.\nThere are three access modifiers. Not including default access modifier . Default is an access control which will be set when one does not specify any access modifier.\nAccess Control:\nPublic\nPrivate\nProtected\nDefault",
+          "url": "jd22.html"
+        },
+        {
+          "id": 22,
+          "name": "Non Access Modifier",
+          "description": "In this article you will learn about Non Access Modifiers. Below are the Non Access Modifiers available in Java.\nFinal\nAbstract\nStatic\nStrictfp\nNative\nSynchronized\nTransient",
+          "url": "jd23.html"
+        },
+        {
+          "id": 23,
+          "name": "this",
+          "description": "this  is a keyword in Java. It can be used inside the Method or constructor of  Class. It(this) works as a reference to the current Object whose Method or constructor is being invoked. The this keyword can be used to refer to any member of the current object from within an instance Method or a constructor.",
+          "url": "jd24.html"
+        },
+        {
+          "id": 24,
+          "name": "Static",
+          "description": "The static keyword in java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than instance of the class.\n\nThe static can be:\n\nvariable (also known as class variable)\nmethod (also known as class method)\nblock\nnested class",
+          "url": "jd25.html"
+        },
+        {
+          "id": 25,
+          "name": "Main Method",
+          "description": "class JBT{\npublic static void main(String args[])\n{\nSystem.out.println(\"Hello JBT\");\n}\n}\n\nmain: is the name of the Method. This Method name is searched by JVM as a starting point for an application with a particular signature only.",
+          "url": "jd26.html"
+        },
+        {
+          "id": 26,
+          "name": "Object Creation",
+          "description": "You are required to use “new” operator to create an Object of a Class. This is not true in order to create an Object.\n \nThere are several ways to create an Object of a Class :\n\nUsing new keyword\nUsing new Instance (Reflection)\nUsing Clone\nUsing Deserilization\nUsing ClassLoader",
+          "url": "jd27.html"
+        },
+        {
+          "id": 27,
+          "name": "Operator",
+          "description": "The Bitwise Operators: Java defines several bitwise operators, which can be applied to the integer types, long, int, short, char, and byte. Binary AND Operator copies a bit to the result if it exists in both operands. Binary OR Operator copies a bit if it exists in either operand.",
+          "url": "jd28.html"
+        },
+        {
+          "id": 28,
+          "name": "Statement",
+          "description": "Types of Java Statement\nControl Statement\nAssignment Statement\n In this section we will discuss about control statements. Click here for additional information on assignment statement.",
+          "url": "jd29.html"
+        },
+        {
+          "id": 29,
+          "name": "Abstract",
+          "description": "A class that is declared with abstract keyword, is known as abstract class in java. It can have abstract and non-abstract methods (method with body).\n\nAbstraction is a process of hiding the implementation details and showing only functionality to the user.\n\nAnother way, it shows only important things to the user and hides the internal details for example sending sms, you just type the text and send the message. You don't know the internal processing about the message delivery.\n\nAbstraction lets you focus on what the object does instead of how it does it.\n\n",
+          "url": "jd30.html"
+        },
+        {
+          "id": 30,
+          "name": "Interface",
+          "description": "An interface in java is a blueprint of a class. It has static constants and abstract methods only.\n\nThe interface in java is a mechanism to achieve fully abstraction. There can be only abstract methods in the java interface not method body. It is used to achieve fully abstraction and multiple inheritance in Java.\n\nJava Interface also represents IS-A relationship.\n\nIt cannot be instantiated just like abstract class.",
+          "url": "jd31.html"
+        },
+        {
+          "id": 31,
+          "name": "Interfaces vs. Abstract Classes",
+          "description": "ava interfaces are used to decouple the interface of some component from the implementation. In other words, to make the classes using the interface independent of the classes implementing the interface. Thus, you can exchange the implementation of the interface, without having to change the class using the interface.\n\nAbstract classes are typically used as base classes for extension by subclasses. Some programming languages use abstract classes to achieve polymorphism, and to separate interface from implementation, but in Java you use interfaces for that. Remember, a Java class can only have 1 superclass, but it can implement multiple interfaces.",
+          "url": "jd32.html"
+        },
+        {
+          "id": 32,
+          "name": "Inheritance",
+          "description": "Java Inheritance defines an is-a relationship between a superclass and its subclasses. This means that an Object of a subclass can be used wherever an object of the superclass can be used. Class Inheritance in Java is used to build new Classes from existing Classes. The inheritance relationship is transitive: if Class x extends Class y, then a Class z, which extends Class x, will also inherit from Class y.",
+          "url": "jd33.html"
+        },
+        {
+          "id": 33,
+          "name": "Polymorphism",
+          "description": "Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. Any Java object that can pass more than one IS-A test is considered to be polymorphic.",
+          "url": "jd34.html"
+        },
+        {
+          "id": 34,
+          "name": "Abstraction",
+          "description": "Abstraction is process of hiding the implementation details and showing only the functionality. Abstraction in java is achieved by using interface and abstract class. Interface give 100% abstraction and abstract class give 0-100% abstraction. A class that is declared as abstract is known as abstract class.",
+          "url": "jd35.html"
+        },
+        {
+          "id": 35,
+          "name": "Encapsulation",
+          "description": "Binding the data with its related functionalities known as encapsulation\nHere data means variables and functionalities means methods.\nSo keeping the variable and related methods in one place.\nThat place is \"class\". class is the base for encapsulation.",
+          "url": "jd36.html"
+        },
+        {
+          "id": 36,
+          "name": "Overloading",
+          "description": "An Overloaded Method gives you an option to use the same Method name in a Class but with a different argument.\n \nOverloading in Java Method Rules\nThere are some rules associated with an overloaded Method.\n\nOverloaded methods\nMust change the argument list\nCan change the return type\nCan change the access modifier(Broader)\nCan declare new or broader checked exception",
+          "url": "jd37.html"
+        },
+        {
+          "id": 37,
+          "name": "Overriding",
+          "description": "Class inheriting the method from its super class has the option to override it. Benefit of overriding is the ability to define behavior specific to particular class. In case of concrete subclass it is forced to implement all methods defined in abstract class if no other super class implemented it in hierarchy. Overriding some times referred as Run time Binding. It means which overridden method is to be invoked will be determined by reference type and not the instance type.",
+          "url": "jd38.html"
+        },
+        {
+          "id": 38,
+          "name": "Inner Class",
+          "description": "Inner classes are class within Class. Inner class instance has special relationship with Outer class. This special relationship gives inner class access to member of outer class as if they are the part of outer class.",
+          "url": "jd39.html"
+        },
+        {
+          "id": 39,
+          "name": "Array",
+          "description": "Java Array is a data structure type which is used to store multiple variables of the same type. Arrays can hold Primitives as well as Object.",
+          "url": "jd40.html"
+        },
+        {
+          "id": 40,
+          "name": "String",
+          "description": "The String class represents character strings.\nAll string literals in Java programs, such as “abc”, are implemented as instances of this class.\nStrings are like constants, once created its value can not be changed.\nString objects are immutable and hence it can be shared.\nString Buffer and String Builder can be used in place of String if lot of String Operation is to be performed.",
+          "url": "jd41.html"
+        },
+        {
+          "id": 41,
+          "name": "String Builder",
+          "description": "A String Builder is like a String, but can be modified. String has drawback that once created it can not be modified. To overcome that problem String Buffer and String builder can be used.",
+          "url": "jd42.html"
+        },
+        {
+          "id": 42,
+          "name": "if statements",
+          "description": "An if statement consists of a boolean expression followed by one or more statements. An if statement can be followed by an optional else statement, which executes when the boolean expression is false. You can use one if or else if statement inside another if or else if statement(s).",
+          "url": "jd43.html"
+        },
+        {
+          "id": 43,
+          "name": "Switch Statements",
+          "description": "A switch statement works a bit like an if statement, except it can choose between more than two blocks of code to execute. Here is a simple example:\n\nint amount = 9;\n\nswitch(amount) {\n    case     0 : System.out.println(\"amount is  0\"); break;\n    case     5 : System.out.println(\"amount is  5\"); break;\n    case    10 : System.out.println(\"amount is 10\"); break;\n    default    : System.out.println(\"amount is something else\");\n}",
+          "url": "jd44.html"
+        },
+        {
+          "id": 44,
+          "name": "for Loops",
+          "description": "The Java for loop repeats a set of Java operations. A for loop repeats a block of code as long as some condition is true. Here is a simple Java for loop example:\n\nfor(int i=0; i < 10; i++) {\n\n   System.out.println(\"i is: \" + i);\n\n}\nThis example is a standard Java for loop. Inside the parentheses () after the for keyword, are three statements separated by semicolon (;).",
+          "url": "jd45.html"
+        },
+        {
+          "id": 45,
+          "name": "while Loops",
+          "description": "The Java while loop is similar to the for loop. The while loop enables your Java program to repeat a set of operations while a certain conditions is true.\n\nThe Java while loop exist in two variations. The commonly used while loop and the less often do while version. I will cover both while loop versions in this text.\n\nint counter = 0;\n\nwhile(counter < 10) {\n\n    System.out.println(\"counter: \" + counter);\n\n    counter++;\n}",
+          "url": "jd46.html"
+        },
+        {
+          "id": 46,
+          "name": "Enum",
+          "description": "Well, you use enums in your Java code. If you don’t then you do something wrong or have very simple applications without much complex functionality.\n\nAnyway, let’s look at the basics. For example you want to have a class which uses workdays. You could define it like this:\n\n   public class Schedule {\n     private ??? workday;\n   }",
+          "url": "jd47.html"
+        },
+        {
+          "id": 47,
+          "name": "Annotations",
+          "description": "Annotations applied to Java code:\n@Override - Checks that the method is an override. ...\n@Deprecated - Marks the method as obsolete. ...\n@SuppressWarnings - Instructs the compiler to suppress the compile time warnings specified in the annotation parameters.",
+          "url": "jd48.html"
+        },
+        {
+          "id": 48,
+          "name": "Serialization",
+          "description": "Serialization is a process in which current state of Object will be saved in stream of bytes. As byte stream create is platform neutral hence once objects created in one system can be deserialized in other platform.",
+          "url": "jd49.html"
+        },
+        {
+          "id": 49,
+          "name": "Thread",
+          "description": "Thread term can be used in two ways\n \nAn instance of class java.lang.Thread\nA Thread of Execution\n\nAn Instance of Thread is an object like any other object in Java, it contains variables and methods which lives and dies on the heap. But a Thread of Execution is an individual process  which has its own stack call. Even if you don’t create any thread in your program, thread will be running there and main() method will start that.",
+          "url": "jd50.html"
+        },
+        {
+          "id": 50,
+          "name": "Multithreading",
+          "description": "Multithreading can be a great way to increase the performance of some types of programs. However, mulithreading is even more challenging than multitasking. The threads are executing within the same program and are hence reading and writing the same memory simultanously. This can result in errors not seen in a singlethreaded program. Some of these errors may not be seen on single CPU machines, because two threads never really execute \"simultanously\". Modern computers, though, come with multi core CPUs, and even with multiple CPUs too. This means that separate threads can be executed by separate cores or CPUs simultanously.",
+          "url": "jd51.html"
+        },
+        {
+          "id": 51,
+          "name": "Exception",
+          "description": "Exception are used in Java to handle errors or any other exceptional event that occurs in the normal flow of program. There are several way Exception can occur in Java.\n \nData provided is not in expected format(eg. int instead of String).\nDB can not connected.\nNetwork connection Lost.\nObject is null.\n…..",
+          "url": "jd52.html"
+        },
+        {
+          "id": 52,
+          "name": "Collection",
+          "description": "Collections in java is a framework that provides an architecture to store and manipulate the group of objects.\n\nAll the operations that you perform on a data such as searching, sorting, insertion, manipulation, deletion etc. can be performed by Java Collections.\n\nJava Collection simply means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque etc.) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet etc).",
+          "url": "jd53.html"
+        },
+        {
+          "id": 53,
+          "name": "Set",
+          "description": "Set is a part Java Collection Framework. Set is an Interface in java.util package. It implements Collection Interface.Concrete Implementation of Set Interface\n\nHashSet\nLinkedHashSet\nTreeSet\nEnumSet\n",
+          "url": "jd54.html"
+        },
+        {
+          "id": 54,
+          "name": "Navigable Set",
+          "description": "Navigable Set Interface is added in Java 6 (1.6). It is the part of Java Collection Framework.\n\nSalient Point of Navigable Set\n\nNavigable Set can be accessed and Traversed in ascending or descending order.\nPerformance of Ascending operation is likely to be faster than descending.",
+          "url": "jd55.html"
+        },
+        {
+          "id": 55,
+          "name": "Sorted Set",
+          "description": "It provides ordering of Its element.\nElements are ordered on the basis of Comparable / Comparator provided @ the time of creation of SortedSet.\nIterator will traverse the set in ascending order.\nThis interface is the set analogue of SortedMap.\nElements inserted in SortedSet needs to implement Comparable Interface (Or accepting the comparator interface).\nAll implementation of SortedSet should provide 4 constructor.\nNo Arg Constructor\nConstructor with single argument of Comparator.\nConstructor with single argument as Collection.\nConstructor with single argument as SortedSet.\n",
+          "url": "jd56.html"
+        },
+        {
+          "id": 56,
+          "name": "Map Collection",
+          "description": "It is an Object that used to map keys to values.\nA Map cannot contain Duplicate values.\nEvery key can map to one value at most.\nThis interface is replacement to Dictionary class which was an abstract class instead of Interface.\nMap interface allows 3 collection views\nSet of keys\nCollection of values\nSet of key-value mappings",
+          "url": "jd57.html"
+        },
+        {
+          "id": 57,
+          "name": "HashMap",
+          "description": "HashMap is HashTable based implementation of Map. This is the reason why interviewer always ask for difference between HashMap and HashTable. HashMap is mostly equals to HashTable except below two differences.\n\nHashMap is unsynchronized while HashTable is synchronised.\nHashMap permits null while HashTable doesn’t.",
+          "url": "jd58.html"
+        },
+        {
+          "id": 58,
+          "name": "Sorted Map",
+          "description": "This interface is the map analogue of SortedSet.\nIT provides ordering on its keys.\nSorted criteria would be to natural order or Comparator provided at the time of creation.\nKeys used in it must implement Comparable or accept the specified comparator.\nKeys in this map need to be mutually comparable.\nIn Map interface equals method is used to compare two keys while in SortedMap compare/ compareTo method (from Comparable or Comparator) is used.\nConstructor that needs to be implemented by concrete class",
+          "url": "jd59.html"
+        },
+        {
+          "id": 59,
+          "name": "List",
+          "description": "Here we will learn about the List interface and different implementation of it in details. List Interface which is in java.util package is a subtype of java.util.Collection Interface.\n\nList Interface Salient Point\n\nIt is a part of java.util package.\nIt is a subtype of java.util.Collection Interface\nList is an Ordered Collection. Means elements of List can be accessed in ordered way (By index).\nAllows Duplicate values.\nAllows NULL values.\nList has a special Iterator named ListIterator. It will help traverse list in both directions.\nList has full control on where each element is inserted.",
+          "url": "jd60.html"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kotlin Overview",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Overview and Setup",
+          "description": "Kotlin is a programming language developed by JetBrains, the same company that has built world-class IDEs like IntelliJ IDEA, PhpStorm, PyCharm, ReSharper etc.\nIt runs on the Java Virtual Machine (JVM), and can also be compiled to JavaScript and Machine Code.",
+          "url": "kotlin/kt1.html"
+        },
+        {
+          "id": 1,
+          "name": "Introduction",
+          "description": "The first program that we typically write in any programming language is the “Hello, World” program.\nLet’s write the “Hello, World” program in Kotlin and understand its internals.",
+          "url": "kotlin/kt2.html"
+        },
+        {
+          "id": 2,
+          "name": "Variables and Data Types",
+          "description": "In this article, you’ll learn how to declare variables in Kotlin, how Kotlin infers the type of variables, and what are the basic data types supported by Kotlin for creating variables.",
+          "url": "kotlin/kt3.html"
+        },
+        {
+          "id": 3,
+          "name": "Operators",
+          "description": "In this article, you’ll learn what are various operators provided by kotlin to perform operations on basic data types.",
+          "url": "kotlin/kt4.html"
+        },
+        {
+          "id": 4,
+          "name": "Control Flow",
+          "description": "In this article, You’ll learn how to use Kotlin’s control flow expressions and statements which includes conditional expressions like if, if-else, when and looping statements like for, while, and do-while.",
+          "url": "kotlin/kt5.html"
+        },
+        {
+          "id": 5,
+          "name": "Nullable Types and Null Safety ",
+          "description": "Kotlin supports nullability as part of its type System. That means You have the ability to declare whether a variable can hold a null value or not.\nBy supporting nullability in the type system, the compiler can detect possible NullPointerException errors at compile time and reduce the possibility of having them thrown at runtime\n",
+          "url": "kotlin/kt6.html"
+        },
+        {
+          "id": 6,
+          "name": "Functions",
+          "description": "Functions are the basic building block of any program. In this article, you’ll learn how to declare and call functions in Kotlin.\n You’ll also learn about Function scopes, Default arguments, Named Arguments, and Varargs.",
+          "url": "kotlin/kt7.html"
+        },
+        {
+          "id": 7,
+          "name": "Infix Notation",
+          "description": "Kotlin supports method calls of a special kind, called infix calls.\nYou can mark any member function or extension function with the infix modifier to allow it to be called using infix notation. The only requirement is that the function should have only one required paramete.\n\nInfix notations are used extensively in Kotlin. If you’ve been programming in Kotlin, chances are that you’ve already used infix notations.",
+          "url": "kotlin/kt8.html"
+        },
+        {
+          "id": 8,
+          "name": "Classes, Objects, Constructors",
+          "description": "Classes and Objects are the central concepts in any Object Oriented Programming(OOP) language.\n\nA class is a blueprint/template for creating objects of similar type. The objects contain state in the form of member variables (properties) and behavior in the form of member functions (methods).",
+          "url": "kotlin/kt9.html"
+        },
+        {
+          "id": 9,
+          "name": "Getters and Setters",
+          "description": "Kotlin internally generates a default getter and setter for mutable properties, and a getter (only) for read-only properties.\n\nIt calls these getters and setters internally whenever you access or modify a property using the dot(.) notation.\n",
+          "url": "kotlin/kt10.html"
+        },
+        {
+          "id": 10,
+          "name": "Inheritance",
+          "description": "Inheritance is one of the key concepts of Object Oriented Programming (OOP). Inheritance enables re-usability. It allows a class to inherit features (properties and methods) from another class.\n\nThe class that inherits the features of another class is called the Child class or Derived class or Sub class, and the class whose features are inherited is called the Parent class or Base class or Super class.",
+          "url": "kotlin/kt11.html"
+        },
+        {
+          "id": 11,
+          "name": "Abstract Classes",
+          "description": "An abstract class is a class that cannot be instantiated. We create abstract classes to provide a common template for other classes to extend and use.You can declare an abstract class using the abstract keyword -\n\nabstract class Vehicle",
+          "url": "kotlin/kt12.html"
+        },
+        {
+          "id": 12,
+          "name": "Data Classes",
+          "description": "Kotlin has a better solution for classes that are used to hold data/state. It’s called a Data Class. A Data Class is like a regular class but with some additional functionalities.",
+          "url": "kotlin/kt13.html"
+        },
+        {
+          "id": 13,
+          "name": "Type Checks and Smart Casts",
+          "description": "When working with mixed types, We often need to know the type of an object at runtime so that we can safely cast the object to our desired type and call methods or access properties on it.",
+          "url": "kotlin/kt14.html"
+        }
+      ],
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "name": "SQLITE Database",
+      "category": "Database",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Home",
+          "description": "SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed SQL database engine in the world. The source code for SQLite is in the public domain.",
+          "url": "sq1.html"
+        },
+        {
+          "id": 1,
+          "name": "Overview",
+          "description": "SQLite is one of the fastest-growing database engines around, but that's growth in terms of popularity, not anything to do with its size. The source code for SQLite is in the public domain.",
+          "url": "sq2.html"
+        },
+        {
+          "id": 2,
+          "name": "Installation",
+          "description": "The SQLite is famous for its great feature zero-configuration, which means no complex setup or administration is needed. This chapter will take you through the process of setting up SQLite on Windows, Linux and Mac OS X.",
+          "url": "sq3.html"
+        },
+        {
+          "id": 3,
+          "name": "Commands",
+          "description": "This chapter will take you through simple and useful commands used by SQLite programmers. These commands are called SQLite dot commands and exception with these commands is that they should not be terminated by a semi-colon (;).",
+          "url": "sq4.html"
+        },
+        {
+          "id": 4,
+          "name": "Syntax",
+          "description": "Important point to be noted is that SQLite is case insensitive, but there are some commands, which are case sensitive like GLOB and glob have different meaning in SQLite statements.",
+          "url": "sq5.html"
+        },
+        {
+          "id": 5,
+          "name": "Data Types",
+          "description": "SQLite data type is an attribute that specifies type of data of any object. Each column, variable and expression has related data type in SQLite.\n\nYou would use these data types while creating your tables. SQLite uses a more general dynamic type system. In SQLite, the datatype of a value is associated with the value itself, not with its container.",
+          "url": "sq6.html"
+        },
+        {
+          "id": 6,
+          "name": "Create Database",
+          "description": "The SQLite sqlite3 command is used to create new SQLite database. You do not need to have any special privilege to create a database.\n",
+          "url": "sq7.html"
+        },
+        {
+          "id": 7,
+          "name": "Attach Database",
+          "description": "Consider a case when you have multiple databases available and you want to use any one of them at a time. SQLite ATTACH DTABASE statement is used to select a particular database, and after this command, all SQLite statements will be executed under the attached database.",
+          "url": "sq8.html"
+        },
+        {
+          "id": 8,
+          "name": "Detach Database",
+          "description": "SQLite DETACH DTABASE statement is used to detach and dissociate a named database from a database connection which was previously attached using ATTACH statement. If the same database file has been attached with multiple aliases, then DETACH command will disconnect only given name and rest of the attachement will still continue. You cannot detach the main or temp databases.",
+          "url": "sq9.html"
+        },
+        {
+          "id": 9,
+          "name": "Create Table",
+          "description": "The SQLite CREATE TABLE statement is used to create a new table in any of the given database. Creating a basic table involves naming the table and defining its columns and each column's data type.",
+          "url": "sq10.html"
+        },
+        {
+          "id": 10,
+          "name": "Drop Table",
+          "description": "The SQLite DROP TABLE statement is used to remove a table definition and all associated data, indexes, triggers, constraints and permission specifications for that table.-",
+          "url": "sq11.html"
+        },
+        {
+          "id": 11,
+          "name": "Insert Query",
+          "description": "The SQLite INSERT INTO Statement is used to add new rows of data into a table in the database.\n\nSyntax:\nThere are two basic syntaxes of INSERT INTO statement as follows:\n\nINSERT INTO TABLE_NAME [(column1, column2, column3,...columnN)]  \nVALUES (value1, value2, value3,...valueN);",
+          "url": "sq12.html"
+        },
+        {
+          "id": 12,
+          "name": "Select Query",
+          "description": "SQLite SELECT statement is used to fetch the data from a SQLite database table which returns data in the form of result table. These result tables are also called result-sets.\n\nSyntax:\nThe basic syntax of SQLite SELECT statement is as follows:\n\nSELECT column1, column2, columnN FROM table_name;",
+          "url": "sq13.html"
+        },
+        {
+          "id": 13,
+          "name": "Operators",
+          "description": "An operator is a reserved word or a character used primarily in an SQLite statement's WHERE clause to perform operation(s), such as comparisons and arithmetic operations.\n\nOperators are used to specify conditions in an SQLite statement and to serve as conjunctions for multiple conditions in a statement.\n\nArithmetic operators\n\nComparison operators\n\nLogical operators\n\nBitwise operators",
+          "url": "sq14.html"
+        },
+        {
+          "id": 14,
+          "name": "Expressions",
+          "description": "An expression is a combination of one or more values, operators and SQL functions that evaluate to a value.\n\nSQL EXPRESSIONs are like formulas and they are written in query language. You can also use to query the database for specific set of data.",
+          "url": "sq15.html"
+        },
+        {
+          "id": 15,
+          "name": "Where Clause",
+          "description": "The SQLite WHERE clause is used to specify a condition while fetching the data from one table or multiple tables.\n\nIf the given condition is satisfied, means true, then it returns specific value from the table. You would use WHERE clause to filter the records and fetching only necessary records.",
+          "url": "sq16.html"
+        },
+        {
+          "id": 16,
+          "name": "AND & OR Clauses",
+          "description": "The SQLite AND and OR operators are used to compile multiple conditions to narrow down selected data in an SQLite statement. These two operators are called conjunctive operators.\n\nThese operators provide a means to make multiple comparisons with different operators in the same SQLite statement.",
+          "url": "sq17.html"
+        },
+        {
+          "id": 17,
+          "name": "Update Query",
+          "description": "The SQLite UPDATE Query is used to modify the existing records in a table. You can use WHERE clause with UPDATE query to update selected rows, otherwise all the rows would be updated.\n\nThe basic syntax of UPDATE query with WHERE clause is as follows:\n\nUPDATE table_name\nSET column1 = value1, column2 = value2...., columnN = valueN\nWHERE [condition];",
+          "url": "sq18.html"
+        },
+        {
+          "id": 18,
+          "name": "Delete Query",
+          "description": "The SQLite DELETE Query is used to delete the existing records from a table. You can use WHERE clause with DELETE query to delete selected rows, otherwise all the records would be deleted.\n\nThe basic syntax of DELETE query with WHERE clause is as follows:\n\nDELETE FROM table_name\nWHERE [condition];",
+          "url": "sq19.html"
+        },
+        {
+          "id": 19,
+          "name": "Like Clause",
+          "description": "The SQLite LIKE operator is used to match text values against a pattern using wildcards. If the search expression can be matched to the pattern expression, the LIKE operator will return true, which is 1. There are two wildcards used in conjunction with the LIKE operator:\n\nThe percent sign (%)\n\nThe underscore (_)",
+          "url": "sq20.html"
+        },
+        {
+          "id": 20,
+          "name": "Glob Clause",
+          "description": "The SQLite GLOB operator is used to match only text values against a pattern using wildcards. If the search expression can be matched to the pattern expression, the GLOB operator will return true, which is 1. Unlike LIKE operator, GLOB is case sensitive and it follows syntax of UNIX for specifying THE following wildcards.\n\nThe asterisk sign (*)\n\nThe question mark (?)",
+          "url": "sq21.html"
+        },
+        {
+          "id": 21,
+          "name": "Limit Clause",
+          "description": "The SQLite LIMIT clause is used to limit the data amount returned by the SELECT statement.\n\nThe basic syntax of SELECT statement with LIMIT clause is as follows:\n\nSELECT column1, column2, columnN \nFROM table_name\nLIMIT [no of rows]",
+          "url": "sq22.html"
+        },
+        {
+          "id": 22,
+          "name": "Order By",
+          "description": "The SQLite ORDER BY clause is used to sort the data in ascending or descending order, based on one or more columns.\n\nSyntax:\nThe basic syntax of ORDER BY clause is as follows:\n\nSELECT column-list \nFROM table_name \n[WHERE condition] \n[ORDER BY column1, column2, .. columnN] [ASC | DESC];",
+          "url": "sq23.html"
+        },
+        {
+          "id": 23,
+          "name": "Group By",
+          "description": "The SQLite GROUP BY clause is used in collaboration with the SELECT statement to arrange identical data into groups.\n\nThe GROUP BY clause follows the WHERE clause in a SELECT statement and precedes the ORDER BY clause.",
+          "url": "sq24.html"
+        },
+        {
+          "id": 24,
+          "name": "Having Clause",
+          "description": "The HAVING clause enables you to specify conditions that filter which group results appear in the final results.\n\nThe WHERE clause places conditions on the selected columns, whereas the HAVING clause places conditions on groups created by the GROUP BY clause.",
+          "url": "sq25.html"
+        },
+        {
+          "id": 25,
+          "name": "Distinct Keyword",
+          "description": "The SQLite DISTINCT keyword is used in conjunction with SELECT statement to eliminate all the duplicate records and fetching only unique records.\n\nThere may be a situation when you have multiple duplicate records in a table. While fetching such records, it makes more sense to fetch only unique records instead of fetching duplicate records.",
+          "url": "sq26.html"
+        },
+        {
+          "id": 26,
+          "name": "PRAGMA",
+          "description": "The SQLite PRAGMA command is a special command to be used to control various environmental variables and state flags within the SQLite environment. A PRAGMA value can be read and it can also be set based on requirements.",
+          "url": "sq27.html"
+        },
+        {
+          "id": 27,
+          "name": "Constraints",
+          "description": "Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.",
+          "url": "sq28.html"
+        },
+        {
+          "id": 28,
+          "name": "Joins",
+          "description": "The SQLite Joins clause is used to combine records from two or more tables in a database. A JOIN is a means for combining fields from two tables by using values common to each.\n\nSQL defines three major types of joins −\n\nThe CROSS JOIN\nThe INNER JOIN\nThe OUTER JOIN",
+          "url": "sq29.html"
+        },
+        {
+          "id": 29,
+          "name": "Unions Clause",
+          "description": "The SQLite UNION clause/operator is used to combine the results of two or more SELECT statements without returning any duplicate rows.\n\nTo use UNION, each SELECT must have the same number of columns selected, the same number of column expressions, the same data type, and have them in the same order, but they do not have to be the same length.",
+          "url": "sq30.html"
+        },
+        {
+          "id": 30,
+          "name": "NULL Values",
+          "description": "The SQLite NULL is the term used to represent a missing value. A NULL value in a table is a value in a field that appears to be blank.\n\nA field with a NULL value is a field with no value. It is very important to understand that a NULL value is different than a zero value or a field that contains spaces.",
+          "url": "sq31.html"
+        },
+        {
+          "id": 31,
+          "name": "Alias Syntax",
+          "description": "You can rename a table or a column temporarily by giving another name, which is known as ALIAS. The use of table aliases means to rename a table in a particular SQLite statement. Renaming is a temporary change and the actual table name does not change in the database.",
+          "url": "sq32.html"
+        },
+        {
+          "id": 32,
+          "name": "Triggers",
+          "description": "SQLite Triggers are database callback functions, which are automatically performed/invoked when a specified database event occurs. Following are the important points about SQLite triggers:",
+          "url": "sq33.html"
+        },
+        {
+          "id": 33,
+          "name": "Indexes",
+          "description": "Indexes are special lookup tables that the database search engine can use to speed up data retrieval. Simply put, an index is a pointer to data in a table. An index in a database is very similar to an index in the back of a book.",
+          "url": "sq34.html"
+        },
+        {
+          "id": 34,
+          "name": "Indexed By",
+          "description": "The \"INDEXED BY index-name\" clause specifies that the named index must be used in order to look up values on the preceding table.\n\nIf index-name does not exist or cannot be used for the query, then the preparation of the SQLite statement fails.\n\nThe \"NOT INDEXED\" clause specifies that no index shall be used when accessing the preceding table, including implied indices create by UNIQUE and PRIMARY KEY constraints.",
+          "url": "sq35.html"
+        },
+        {
+          "id": 35,
+          "name": "Alter Command",
+          "description": "The SQLite ALTER TABLE command modifies an existing table without performing a full dump and reload of the data. You can rename a table using ALTER TABLE statement and additional columns can be added in an existing table using ALTER TABLE statement.\n\nThere is no other operation supported by ALTER TABLE command in SQLite except renaming a table and adding a column in existing table.\n\n",
+          "url": "sq36.html"
+        },
+        {
+          "id": 36,
+          "name": "Truncate Table",
+          "description": "Unfortunately, we do not have TRUNCATE TABLE command in SQLite but you can use SQLite DELETE command to delete complete data from an existing table, though it is recommended to use DROP TABLE command to drop complete table and re-create it once again.",
+          "url": "sq37.html"
+        },
+        {
+          "id": 37,
+          "name": "Views",
+          "description": "A view is nothing more than a SQLite statement that is stored in the database with an associated name. A view is actually a composition of a table in the form of a predefined SQLite query.",
+          "url": "sq38.html"
+        },
+        {
+          "id": 38,
+          "name": "Transactions",
+          "description": "A transaction is a unit of work that is performed against a database. Transactions are units or sequences of work accomplished in a logical order, whether in a manual fashion by a user or automatically by some sort of a database program.",
+          "url": "sq39.html"
+        },
+        {
+          "id": 39,
+          "name": "Sub Queries",
+          "description": "A Subquery or Inner query or Nested query is a query within another SQLite query and embedded within the WHERE clause.\n\nA subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.\n\nSubqueries can be used with the SELECT, INSERT, UPDATE and DELETE statements along with the operators like =, <, >, >=, <=, IN, BETWEEN etc.",
+          "url": "sq40.html"
+        },
+        {
+          "id": 40,
+          "name": "Autoincrement",
+          "description": "SQLite AUTOINCREMENT is a keyword used for auto incrementing a value of a field in the table. We can auto increment a field value by using AUTOINCREMENT keyword when creating a table with specific column name to auto incrementing it.\n\nThe keyword AUTOINCREMENT can be used with INTEGER field only.",
+          "url": "sq41.html"
+        },
+        {
+          "id": 41,
+          "name": "Injection",
+          "description": "If you take user input through a webpage and insert it into a SQLite database there's a chance that you have left yourself wide open for a security issue known as SQL Injection. This lesson will teach you how to help prevent this from happening and help you secure your scripts and SQLite statements.",
+          "url": "sq42.html"
+        },
+        {
+          "id": 42,
+          "name": "Explain",
+          "description": "An SQLite statement can be preceded by the keyword \"EXPLAIN\" or by the phrase \"EXPLAIN QUERY PLAN\" used for describing the details of table.\n\nEither modification causes the SQLite statement to behave as a query and to return information about how the SQLite statement would have operated if the EXPLAIN keyword or phrase had been omitted.",
+          "url": "sq43.html"
+        },
+        {
+          "id": 43,
+          "name": "Vacuum",
+          "description": "The VACUUM command cleans the main database by copying its contents to a temporary database file and reloading the original database file from the copy. This eliminates free pages, aligns table data to be contiguous, and otherwise cleans up the database file structure.",
+          "url": "sq44.html"
+        },
+        {
+          "id": 44,
+          "name": "Date & Time",
+          "description": "The time string can be followed by zero or more modifiers that will alter date and/or time returned by any of the above five functions. Modifiers are applied from left to right and following modifers are available in SQLite:\n\nNNN days\n\nNNN hours\n\nNNN minutes",
+          "url": "sq45.html"
+        },
+        {
+          "id": 45,
+          "name": "Useful Functions",
+          "description": "SQLite has many built-in functions for performing processing on string or numeric data. Following is the list of few useful SQLite built-in functions and all are case in-sensitive which means you can use these functions either in lower-case form or in upper-case or in mixed form.",
+          "url": "sq46.html"
+        },
+        {
+          "id": 46,
+          "name": "C/C++",
+          "description": "Before we start using SQLite in our C/C++ programs, we need to make sure that we have SQLite library set up on the machine. You can check SQLite Installation chapter to understand installation process.",
+          "url": "sq47.html"
+        },
+        {
+          "id": 47,
+          "name": "Java",
+          "description": "Before we start using SQLite in our Java programs, we need to make sure that we have SQLite JDBC Driver and Java set up on the machine. You can check Java tutorial for Java installation on your machine. Now, let us check how to set up SQLite JDBC driver.\n\nDownload latest version of sqlite-jdbc-(VERSION).jar from sqlite-jdbc repository.\n\nAdd downloaded jar file sqlite-jdbc-(VERSION).jar in your class path, or you can use it along with -classpath option as explained below in examples.",
+          "url": "sq48.html"
+        },
+        {
+          "id": 48,
+          "name": "PHP",
+          "description": "The SQLite3 extension is enabled by default as of PHP 5.3.0. It's possible to disable it by using --without-sqlite3 at compile time.\n\nWindows users must enable php_sqlite3.dll in order to use this extension. This DLL is included with Windows distributions of PHP as of PHP 5.3.0.",
+          "url": "sq49.html"
+        },
+        {
+          "id": 49,
+          "name": "Perl",
+          "description": "The SQLite3 can be integrated with Perl using Perl DBI module, which is a database access module for the Perl programming language. It defines a set of methods, variables and conventions that provide a standard database interface.",
+          "url": "sq50.html"
+        },
+        {
+          "id": 50,
+          "name": "Python",
+          "description": "The SQLite3 can be integrated with Python using sqlite3 module which was written by Gerhard Haring. It provides an SQL interface compliant with the DB-API 2.0 specification described by PEP 249. You do not need to install this module separately because its being shipped by default along with Python version 2.5.x onwards.",
+          "url": "sq51.html"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tutorials of Android",
+      "category": "Learning",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Activity Lifecycle Thread",
+          "description": "As a user navigates through, out of, and back to your app, the Activity instances in your app transition through different states in their lifecycle. The Activity class provides a number of callbacks that allow the activity to know that a state has changed: that the system is creating, stopping, resuming, or destroying an activity.",
+          "url": "activity-lifecycle-thread.html"
+        },
+        {
+          "id": 1,
+          "name": "Activity Example",
+          "description": "Android - Activities. An activity represents a single screen with a user interface just like window or frame of Java.Android activity is the subclass of ContextThemeWrapper class.",
+          "url": "android-activity-example.html"
+        },
+        {
+          "id": 2,
+          "name": "Password Field Example",
+          "description": "We show you how to use XML to create a password field, label field and a normal button. When you click on the button, the password value will be displayed as a floating message (toast message).",
+          "url": "android-password-demo.html"
+        },
+        {
+          "id": 3,
+          "name": "Listview Example",
+          "description": "Android ListView is a view which groups several items and display them in vertical scrollable list. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database.",
+          "url": "android-listview-demo.html"
+        },
+        {
+          "id": 4,
+          "name": "Listadapter Example",
+          "description": "Extended Adapter that is the bridge between a ListView and the data that backs the list. Frequently that data comes from a Cursor, but that is not required. The ListView can display any data provided that it is wrapped in a ListAdapter.",
+          "url": "android-listadapter-demo.html"
+        },
+        {
+          "id": 5,
+          "name": "Alert Box",
+          "description": "A dialog is a small window that prompts the user to make a decision or enter additional information. A dialog does not fill the screen and is normally used for modal events that require users to take an action before they can proceed.",
+          "url": "android-alert-box.html"
+        },
+        {
+          "id": 6,
+          "name": "Custom Dialog Example",
+          "description": "Some times in your application, if you wanted to ask the user about taking a decision between yes or no in response of any particular action taken by the user, by remaining in the same activity and without changing the screen, you can use Alert Dialog.",
+          "url": "android-custom-dialog-example.html"
+        },
+        {
+          "id": 7,
+          "name": "Progressbar Example",
+          "description": "Visual indicator of progress in some operation. Displays a bar to the user representing how far the operation has progressed; the application can change the amount of progress (modifying the length of the bar) as it moves forward. There is also a secondary progress displayable on a progress bar which is useful for displaying intermediate progress, such as the buffer level during a streaming playback progress bar.",
+          "url": "ProgressBar-Example.html"
+        },
+        {
+          "id": 8,
+          "name": "Gridview Example",
+          "description": "GridView is a ViewGroup that displays items in a two-dimensional, scrollable grid. The grid items are automatically inserted to the layout using a ListAdapter.",
+          "url": "android-gridview-example.html"
+        },
+        {
+          "id": 9,
+          "name": "Custom Gridview example",
+          "description": "GridView is used to display data in two dimension. In this tutorial we are going to show you how to implement custom GridView in Android with Images and Text.",
+          "url": "android-custom-gridview-example.html"
+        },
+        {
+          "id": 10,
+          "name": "Simple ViewFlipper Example",
+          "description": "Simple ViewAnimator that will animate between two or more views that have been added to it. Only one child is shown at a time. If requested, can automatically flip between each child at a regular interval.",
+          "url": "Simple-ViewFlipper-Example.html"
+        },
+        {
+          "id": 11,
+          "name": "Gallery Example",
+          "description": "A view that shows items in a center-locked, horizontally scrolling list.\n\nThe default values for the Gallery assume you will be using Theme_galleryItemBackground as the background for each View given to the Gallery from the Adapter. If you are not doing this, you may need to adjust some Gallery properties, such as the spacing.\n\nViews given to the Gallery should use Gallery.LayoutParams as their layout parameters type.",
+          "url": "Gallery-Android.html"
+        },
+        {
+          "id": 12,
+          "name": "Webview Example",
+          "description": "A View that displays web pages. This class is the basis upon which you can roll your own web browser or simply display some online content within your Activity. It uses the WebKit rendering engine to display web pages and includes methods to navigate forward and backward through a history, zoom in and out, perform text searches and more.",
+          "url": "android-webview-example.html"
+        },
+        {
+          "id": 13,
+          "name": "Quick Action Popup",
+          "description": "Quick action pattern is a way of making the applications more interesting and interactive for the users. It is a context menu that doesn't cover up the data that is being acted on. Most of time, this Quick actions dialog is not present in the android by default, so we have to create it.\n\nRead more: http://mrbool.com/how-to-implement-quick-action-pattern-in-android/26980#ixzz4ZLl97ch0",
+          "url": "android-quick-action-popup.html"
+        },
+        {
+          "id": 14,
+          "name": "XML Drawables",
+          "description": "A Drawable resource is a general concept for a graphic which can be drawn. The simplest case is a graphical file (bitmap), which would be represented in Android via a BitmapDrawable class. Every Drawable is stored as individual files in one of the res/drawable folders.",
+          "url": "XML-Drawables.html"
+        },
+        {
+          "id": 15,
+          "name": "XML Parser",
+          "description": "Android - XML Parser. XML stands for Extensible Mark-up Language.XML is a very popular format and commonly used for sharing data on the internet. This chapter explains how to parse the XML file and extract necessary information from it. Android provides three types of XML parsers which are DOM,SAX and XMLPullParser.",
+          "url": "android-xml-parser.html"
+        },
+        {
+          "id": 16,
+          "name": "XML SAX Parser",
+          "description": "Defines the API that wraps an XMLReader implementation class. In JAXP 1.0, this class wrapped the Parser interface, however this interface was replaced by the XMLReader. For ease of transition, this class continues to support the same name and interface as well as supporting new methods. An instance of this class can be obtained from the newSAXParser() method. Once an instance of this class is obtained, XML can be parsed from a variety of input sources. These input sources are InputStreams, Files, URLs, and SAX InputSources.",
+          "url": "XML-SAX-Parser.html"
+        },
+        {
+          "id": 17,
+          "name": "JSON Parser Example",
+          "description": "JSON is very light weight, structured, easy to parse and much human readable. JSON is best alternative to XML when your android app needs to interchange data with your server. If your app consuming XML data, you can always refer to Android XML Parsing Tutorial.",
+          "url": "json-parser-example.html"
+        },
+        {
+          "id": 18,
+          "name": "Content Provider",
+          "description": "Content providers can help an application manage access to data stored by itself, stored by other apps, and provide a way to share data with other apps. They encapsulate the data, and provide mechanisms for defining data security. Content providers are the standard interface that connects data in one process with code running in another process. Implementing a content provider has many advantages. ",
+          "url": "content-provider.html"
+        },
+        {
+          "id": 19,
+          "name": "Async-task",
+          "description": "AsyncTask enables proper and easy use of the UI thread. This class allows you to perform background operations and publish results on the UI thread without having to manipulate threads and/or handlers.\n\nAsyncTask is designed to be a helper class around Thread and Handler and does not constitute a generic threading framework. AsyncTasks should ideally be used for short operations (a few seconds at the most.) If you need to keep threads running for long periods of time, it is highly recommended you use the various APIs provided by the java.util.concurrent package such as Executor, ThreadPoolExecutor and FutureTask.",
+          "url": "android-async-task.html"
+        },
+        {
+          "id": 20,
+          "name": "AIDL Example",
+          "description": "AIDL (Android Interface Definition Language) is similar to other IDLs you might have worked with. It allows you to define the programming interface that both the client and service agree upon in order to communicate with each other using interprocess communication (IPC). On Android, one process cannot normally access the memory of another process. So to talk, they need to decompose their objects into primitives that the operating system can understand, and marshall the objects across that boundary for you. The code to do that marshalling is tedious to write, so Android handles it for you with AIDL.",
+          "url": "aidl-example.html"
+        },
+        {
+          "id": 21,
+          "name": "Animation Simple Example",
+          "description": "Tween Animation takes some parameters such as start value , end value, size , time duration , rotation angle e.t.c and perform the required animation on that object. It can be applied to any type of object. So in order to use this , android has provided us a class called Animation.",
+          "url": "Animation-sample-program-in-Android.html"
+        },
+        {
+          "id": 22,
+          "name": "Surfaceview animation Example",
+          "description": "Provides a dedicated drawing surface embedded inside of a view hierarchy. You can control the format of this surface and, if you like, its size; the SurfaceView takes care of placing the surface at the correct location on the screen\n\nThe surface is Z ordered so that it is behind the window holding its SurfaceView; the SurfaceView punches a hole in its window to allow its surface to be displayed. The view hierarchy will take care of correctly compositing with the Surface any siblings of the SurfaceView that would normally appear on top of it. This can be used to place overlays such as buttons on top of the Surface, though note however that it can have an impact on performance since a full alpha-blended composite will be performed each time the Surface changes.",
+          "url": "surfaceviewanimationexample.html"
+        },
+        {
+          "id": 23,
+          "name": "Basic Parceleble Example",
+          "description": "Interface for classes whose instances can be written to and restored from a Parcel. Classes implementing the Parcelable interface must also have a non-null static field called CREATOR of a type that implements the Parcelable.Creator interface.",
+          "url": "basic-parceleble-example.html"
+        },
+        {
+          "id": 24,
+          "name": "Database Example",
+          "description": "One of the main principles of SQL databases is the schema: a formal declaration of how the database is organized. The schema is reflected in the SQL statements that you use to create your database. You may find it helpful to create a companion class, known as a contract class, which explicitly specifies the layout of your schema in a systematic and self-documenting way.\n\nA contract class is a container for constants that define names for URIs, tables, and columns. The contract class allows you to use the same constants across all the other classes in the same package. This lets you change a column name in one place and have it propagate throughout your code.",
+          "url": "android-database-example.html"
+        },
+        {
+          "id": 25,
+          "name": " Fragments",
+          "description": "A Fragment represents a behavior or a portion of user interface in an Activity. You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities. You can think of a fragment as a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running (sort of like a \"sub activity\" that you can reuse in different activities).",
+          "url": "android-fragments.html"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Interview Questions",
+      "category": "Learning",
+      "subtopics": [
+        {
+          "id": 0,
+          "name": "Android",
+          "description": "Android is a stack of software for mobile devices which includes an Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine.\nAndroid provides a rich application framework that allows you to build innovative apps and games for mobile devices in a Java language environment.",
+          "url": "Interview/android.html"
+        },
+        {
+          "id": 1,
+          "name": "Java",
+          "description": "Java is a simple and yet powerful object oriented programming language and it is in many respects similar to C++. Java originated at Sun Microsystems, Inc. in 1991. It was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc",
+          "url": "Interview/java.html"
+        },
+        {
+          "id": 2,
+          "name": "Koltin",
+          "description": "Kotlin an open source programming language that combines object-oriented programming features.\n\nThe features like Range Expression, Extension Function, Companion Object, Smart casts, Data classes are considered to be surplus of the Kotlin Language.",
+          "url": "Interview/kotlin.html"
+        },
+        {
+          "id": 3,
+          "name": "SQLite",
+          "description": "SQL LITE is a mostly ACID compliant relational database management system contained in a relatively small C programming library. \nSQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed database engine in the world.",
+          "url": "Interview/sqlite.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_5"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_marginTop="@dimen/margin_5"
+    android:layout_marginEnd="@dimen/margin_5"
+    android:layout_marginRight="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_5"
+    card_view:cardCornerRadius="@dimen/margin_5"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewSubjectCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="@dimen/margin_5"
+            android:background="@drawable/bg_round_border"
+            android:padding="@dimen/margin_5"
+            android:text="Programming"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textSize_16"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewSubjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSubjectCategory"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="PHP Programming Language"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_18"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSubjectName"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_5">
+
+            <TextView
+                android:id="@+id/textViewSubjectDonePercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_5"
+                android:text="2/10"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/textSize_14" />
+
+            <ProgressBar
+                android:id="@+id/progressBarPercentage"
+                style="@style/blackProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="45"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

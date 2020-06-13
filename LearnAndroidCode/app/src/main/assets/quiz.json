@@ -1,0 +1,904 @@
+{
+   "questions": [
+      {
+         "id": "1",
+         "question": "How many sizes are supported by Android?",
+         "optionA": "Android supported all sizes",
+         "optionB": "Android does not support all sizes",
+         "optionC": "Android supports small,normal, large and extra-large sizes",
+         "optionD": "Size is undefined in android",
+         "rightAnswer": "Android supports small,normal, large and extra-large sizes"
+      },
+      {
+         "id": "2",
+         "question": "Android's mobile operating system is based on a modified version of the",
+         "optionA": "Linux kernel",
+         "optionB": "Unix kernel",
+         "optionC": "indows",
+         "optionD": "Mac",
+         "rightAnswer": "Linux kernel"
+      },
+      {
+         "id": "3",
+         "question": "In Android, you can raise notifications via ___________________",
+         "optionA": "Notification",
+         "optionB": "NotificationManager",
+         "optionC": "note",
+         "optionD": "Manager",
+         "rightAnswer": "NotificationManager"
+      },
+      {
+         "id": "4",
+         "question": "The NotificationManager is a ___________________",
+         "optionA": "system service",
+         "optionB": "user service",
+         "optionC": "interactive service",
+         "optionD": "none of these",
+         "rightAnswer": "system service"
+      },
+      {
+         "id": "5",
+         "question": "At the time of making the network call user interface is sluggish or gets crash due to ____________",
+         "optionA": "hardware problem",
+         "optionB": "virus",
+         "optionC": "network latency",
+         "optionD": "too much load",
+         "rightAnswer": "network latency"
+      },
+      {
+         "id": "6",
+         "question": "Which of the following tools are used by developer to test the application 1. Physical Android phone 2. SDK 3. Third party Emulator 4. JDK 5)winrunner",
+         "optionA": "1,2,3",
+         "optionB": "3,4,5",
+         "optionC": "all of the above",
+         "optionD": "none of these",
+         "rightAnswer": "1,2,3"
+      },
+      {
+         "id": "7",
+         "question": "For creating user interface in Android, you have to use",
+         "optionA": "Eclipse",
+         "optionB": "java and XML",
+         "optionC": "java and SQL",
+         "optionD": "Java and Pl/sql",
+         "rightAnswer": "java and XML"
+      },
+      {
+         "id": "8",
+         "question": "Which of the following corporation bought Android?",
+         "optionA": "microsoft",
+         "optionB": "apple",
+         "optionC": "google",
+         "optionD": "none of these",
+         "rightAnswer": "google"
+      },
+      {
+         "id": "9",
+         "question": "_____________ field provides automatic spelling assistance.",
+         "optionA": "Android:autoText",
+         "optionB": "Android:capitalize",
+         "optionC": "Android:digits",
+         "optionD": "Android:singleLine",
+         "rightAnswer": "Android:autoText"
+      },
+      {
+         "id": "10",
+         "question": "‘values’ subfolder has ___________ which defines constant value",
+         "optionA": "XML file",
+         "optionB": "Image file",
+         "optionC": "doc file",
+         "optionD": "none of these",
+         "rightAnswer": "XML file"
+      },
+      {
+         "id": "11",
+         "question": "What do you mean AIDL?",
+         "optionA": "Android Interface Data language",
+         "optionB": "Android Interface Definition Language",
+         "optionC": "Application Interface Data Language",
+         "optionD": "Application Interface Definition Language",
+         "rightAnswer": "Android Interface Definition Language"
+      },
+      {
+         "id": "12",
+         "question": "“assets/” holds",
+         "optionA": "resources",
+         "optionB": "Java source code",
+         "optionC": "application",
+         "optionD": "static files",
+         "rightAnswer": "static files"
+      },
+      {
+         "id": "13",
+         "question": "Which of the following services are provided by Android operating system? 1)location 2)sensor reading 3)WiFi 4)cloud computing",
+         "optionA": "1,2,3 and more",
+         "optionB": "2,3,4and more",
+         "optionC": "All of the above",
+         "optionD": "none of these",
+         "rightAnswer": ",2,3 and more"
+      },
+      {
+         "id": "14",
+         "question": "Typically MIME type will be",
+         "optionA": "html",
+         "optionB": "text",
+         "optionC": "text/HTML",
+         "optionD": "Doc",
+         "rightAnswer": "text/HTML"
+      },
+      {
+         "id": "15",
+         "question": "Is the Bluetooth serial port profile supported by Android?",
+         "optionA": "yes",
+         "optionB": "no",
+         "optionC": "Both a and b",
+         "optionD": "None of the above",
+         "rightAnswer": "yes"
+      },
+      {
+         "id": "16",
+         "question": "What is mean by AAPT?",
+         "optionA": "Android Asset Packaging Tool",
+         "optionB": "Application Asset Packaging Tool",
+         "optionC": "Android Application Packaging Tool",
+         "optionD": "none of these",
+         "rightAnswer": "Application Asset Packaging Tool"
+      },
+      {
+         "id": "17",
+         "question": "What is mean by ANR?",
+         "optionA": "Application not Recognized",
+         "optionB": "Android not recognized",
+         "optionC": "Application Not Responding",
+         "optionD": "none of these",
+         "rightAnswer": "Application Not Responding"
+      },
+      {
+         "id": "18",
+         "question": "What is Android?",
+         "optionA": "mobile operating system",
+         "optionB": "windows operating system",
+         "optionC": "programming language",
+         "optionD": "application software",
+         "rightAnswer": "mobile operating system"
+      },
+      {
+         "id": "19",
+         "question": "Which of the following format is not supported by Android?",
+         "optionA": "mp4",
+         "optionB": "3gp",
+         "optionC": "AVI",
+         "optionD": "FLV",
+         "rightAnswer": "AVI"
+      },
+      {
+         "id": "20",
+         "question": "Browsers that are available for Android are based on _________",
+         "optionA": "google crome",
+         "optionB": "firefox",
+         "optionC": "open source webkit",
+         "optionD": "IE",
+         "rightAnswer": "open source webkit"
+      },
+      {
+         "id": "21",
+         "question": "Which of the following feature(s) is/are supported by Android?",
+         "optionA": "multitasking",
+         "optionB": "Bluetooth",
+         "optionC": "video chatting",
+         "optionD": "all of these",
+         "rightAnswer": "all of these"
+      },
+      {
+         "id": "22",
+         "question": "What is mean by localization?",
+         "optionA": "representing the products in different languages",
+         "optionB": "representing the products in different region",
+         "optionC": "representing the people in different languages",
+         "optionD": "representing the products in different languages with different attribute",
+         "rightAnswer": "representing the products in different languages"
+      },
+      {
+         "id": "23",
+         "question": "What is APK?",
+         "optionA": "Application package kit",
+         "optionB": "Application package file",
+         "optionC": "Android package kit",
+         "optionD": "Android package file",
+         "rightAnswer": "Application package file"
+      },
+      {
+         "id": "24",
+         "question": "ADB stands for",
+         "optionA": "Android Debug Bridge",
+         "optionB": "Application Debug Bridge",
+         "optionC": "Android Data Bridge",
+         "optionD": "Application Data Bridge",
+         "rightAnswer": "Application Debug Bridge"
+      },
+      {
+         "id": "25",
+         "question": "Does Android make assumption about device screen size, resolution or chipset?",
+         "optionA": "yes",
+         "optionB": "no",
+         "optionC": "Both a and b",
+         "optionD": "None of the above",
+         "rightAnswer": "no"
+      },
+      {
+         "id": "26",
+         "question": "For __________ , code used by Android is not an open source",
+         "optionA": "Device driver",
+         "optionB": "video driver",
+         "optionC": "WiFi driver",
+         "optionD": "Bluetooth driver",
+         "rightAnswer": "WiFi driver"
+      },
+      {
+         "id": "27",
+         "question": "Which of the followings is are the part of Android native library? 1 Webkit, 2 OpenGL, 3 SQLite, 4 OpenUX,5 Dalvik",
+         "optionA": "1,2,3",
+         "optionB": "3,4,5",
+         "optionC": "All of the above",
+         "optionD": "none of these",
+         "rightAnswer": "1,2,3"
+      },
+      {
+         "id": "28",
+         "question": "Which compiler is used for compilation of Android code?",
+         "optionA": "Mobile Interpretive Compiler",
+         "optionB": "Dex compiler",
+         "optionC": "AIC",
+         "optionD": "DIC",
+         "rightAnswer": "Dex compiler"
+      },
+      {
+         "id": "29",
+         "question": "Dex compiler compiles and converts source code into a byte code called____________",
+         "optionA": "Delvik byte code",
+         "optionB": "java byte code",
+         "optionC": "Android byte code",
+         "optionD": "none of these",
+         "rightAnswer": "Delvik byte code"
+      },
+      {
+         "id": "30",
+         "question": "Why JVM was replaced by DVM when Android development started?",
+         "optionA": "JVM is slow",
+         "optionB": "JVM is complicated to configure",
+         "optionC": "JVM was not free",
+         "optionD": "none of these",
+         "rightAnswer": "JVM was not free"
+      },
+      {
+         "id": "31",
+         "question": "Which of the following(s) is/are component of APK file?",
+         "optionA": "Resources",
+         "optionB": "Delvik Executable",
+         "optionC": "Both a and b",
+         "optionD": "None of the above",
+         "rightAnswer": "Both a and b"
+      },
+      {
+         "id": "32",
+         "question": "Does Android support AWT and Swing?",
+         "optionA": "yes",
+         "optionB": "no",
+         "optionC": "Both a and b",
+         "optionD": "None of the above",
+         "rightAnswer": "no"
+      },
+      {
+         "id": "33",
+         "question": "Is it possible to run java source code directly on Android?",
+         "optionA": "yes",
+         "optionB": "no",
+         "optionC": "Both a and b",
+         "optionD": "None of the above",
+         "rightAnswer": "no"
+      },
+      {
+         "id": "34",
+         "question": "AVD stands for",
+         "optionA": "Android Virtual Device",
+         "optionB": "Application virtual device",
+         "optionC": "Android video device",
+         "optionD": "None of the these",
+         "rightAnswer": "Android Virtual Device"
+      },
+      {
+         "id": "35",
+         "question": "Which of the following file explains what the application consists of?",
+         "optionA": "Strings XML",
+         "optionB": "R file",
+         "optionC": "Manifest",
+         "optionD": "Layout file",
+         "rightAnswer": "Manifest"
+      },
+      {
+         "id": "36",
+         "question": "Which of the following source code does an Android application uses and converts it into a Delvik executable?",
+         "optionA": "the SDK",
+         "optionB": "the JDK",
+         "optionC": "java source code",
+         "optionD": ".NET source code",
+         "rightAnswer": "java source code"
+      },
+      {
+         "id": "37",
+         "question": "Eclipse is an ________",
+         "optionA": "Android tool",
+         "optionB": "IDE",
+         "optionC": "Android interface",
+         "optionD": "None of the these",
+         "rightAnswer": "IDE"
+      },
+      {
+         "id": "38",
+         "question": "R file generates_______",
+         "optionA": "Automatically",
+         "optionB": "Manually",
+         "optionC": "Emulated",
+         "optionD": "None of the these",
+         "rightAnswer": "Automatically"
+      },
+      {
+         "id": "39",
+         "question": "Which of the following file contains the text that your application used?",
+         "optionA": "web.xml",
+         "optionB": "manifest.xml",
+         "optionC": "string.xml",
+         "optionD": "text.xml",
+         "rightAnswer": "string.xml"
+      },
+      {
+         "id": "40",
+         "question": "Which of the following don’t have any UI component and run as a background process?",
+         "optionA": "Services",
+         "optionB": "Simulator",
+         "optionC": "Emulator",
+         "optionD": "None of the these",
+         "rightAnswer": "Services"
+      },
+      {
+         "id": "41",
+         "question": "A single screen , the user sees on the device at one time, is known as _______________",
+         "optionA": "c",
+         "optionB": "GUI",
+         "optionC": "Activity",
+         "optionD": "Application",
+         "rightAnswer": "Service"
+      },
+      {
+         "id": "42",
+         "question": "If Fragment and activity is running and activity is destroyed, what is the effect on the fragment?",
+         "optionA": "Fragment is destroyed",
+         "optionB": "Fragment runs as it is",
+         "optionC": "Fragment goes in idle state",
+         "optionD": "None of the these",
+         "rightAnswer": "Fragment is destroyed"
+      },
+      {
+         "id": "43",
+         "question": "Which are the states in service life cycle? 1 starting, 2 paused, 3 running, 4 destroyed, 5 wait, 6 yield",
+         "optionA": "1,2,3,5",
+         "optionB": "1,3,4",
+         "optionC": "2,5,6",
+         "optionD": "None of the these",
+         "rightAnswer": "1,3,4"
+      },
+      {
+         "id": "44",
+         "question": "In ___________, sender specifies type of receiver.",
+         "optionA": "Implicit intent",
+         "optionB": "Explicit intent",
+         "optionC": "a and b",
+         "optionD": "None of the these",
+         "rightAnswer": "Implicit intent"
+      },
+      {
+         "id": "45",
+         "question": "In pause state",
+         "optionA": "activity not in focus, but visible on screen",
+         "optionB": "activity not in focus, not visible on screen",
+         "optionC": "activity is focus also visible on screen",
+         "optionD": "activity is focus ,not visible on screen",
+         "rightAnswer": "activity not in focus, but visible on screen"
+      },
+      {
+         "id": "46",
+         "question": "________database is automatically supplied to you by Android.",
+         "optionA": "Apache",
+         "optionB": "Oracle",
+         "optionC": "SQLite",
+         "optionD": "MySql",
+         "rightAnswer": "SQLite"
+      },
+      {
+         "id": "47",
+         "question": "At the time of making the network call user interface is sluggish or gets crash due to ______",
+         "optionA": "hardware problem",
+         "optionB": " virus",
+         "optionC": "network latency",
+         "optionD": "too much load",
+         "rightAnswer": "etwork latency"
+      },
+      {
+         "id": "48",
+         "question": "Funny fact about start of the Android is",
+         "optionA": "It was called as Eureka",
+         "optionB": "The first version of Android was released without an actual phone on the market",
+         "optionC": "It was a close source",
+         "optionD": "It was for desktop",
+         "rightAnswer": "The first version of Android was released without an actual phone on the market"
+      },
+      {
+         "id": "49",
+         "question": "________makes appropriate list of application data for the other applications",
+         "optionA": "service provider",
+         "optionB": "content provider",
+         "optionC": "application provider",
+         "optionD": "resource",
+         "rightAnswer": "content provider"
+      },
+      {
+         "id": "50",
+         "question": "Android provides a few standard themes, listed in_______",
+         "optionA": "R.style",
+         "optionB": "X.style",
+         "optionC": "manifest.XML",
+         "optionD": "application",
+         "rightAnswer": "R.style"
+      },
+      {
+         "id": "51",
+         "question": "For writing Android code using c/c++ , you need to use______",
+         "optionA": "SDK",
+         "optionB": "JDK",
+         "optionC": "NDK",
+         "optionD": "MDK",
+         "rightAnswer": "NDK"
+      },
+      {
+         "id": "52",
+         "question": "To update contents of content provider using curser and commit you need to call______",
+         "optionA": "commitUpdates()",
+         "optionB": "updates()",
+         "optionC": "commit()",
+         "optionD": "None of the these",
+         "rightAnswer": "commitUpdates()"
+      },
+      {
+         "id": "53",
+         "question": "To insert data into a content provider, you need to use______ 1 insert(), 2 bulkInsert(), 3 getContentProvider(), 4update()",
+         "optionA": "1 and 2",
+         "optionB": "3 and 4",
+         "optionC": "all of above",
+         "optionD": "None of the these",
+         "rightAnswer": "1 and 2"
+      },
+      {
+         "id": "54",
+         "question": "What do you mean by BLOB?",
+         "optionA": "Bytes less object",
+         "optionB": "Binary large objects",
+         "optionC": "Binary low object",
+         "optionD": "bit low object",
+         "rightAnswer": "Binary large objects"
+      },
+      {
+         "id": "55",
+         "question": "Android uses both the content, ________ and the _________ type as ways to identify content on the device.",
+         "optionA": "Uri, MIME",
+         "optionB": "MIME,HTTP",
+         "optionC": "Uri,HTTP",
+         "optionD": "uri,FTP",
+         "rightAnswer": "Uri, MIME"
+      },
+      {
+         "id": "56",
+         "question": "The _______________ application is an email monitoring application.",
+         "optionA": "Mail",
+         "optionB": "Buzz",
+         "optionC": "MailBuzz",
+         "optionD": "MailBox",
+         "rightAnswer": "MailBuzz"
+      },
+      {
+         "id": "57",
+         "question": "IPC stands for",
+         "optionA": "Inter process communication",
+         "optionB": "Intra process communication",
+         "optionC": "Inter process control",
+         "optionD": " Intra process control",
+         "rightAnswer": "Inter process communication"
+      },
+      {
+         "id": "58",
+         "question": "________ is a means of interacting with activities or other Android components",
+         "optionA": "IPB",
+         "optionB": "IPC",
+         "optionC": "PCB",
+         "optionD": "PCI",
+         "rightAnswer": "IPC"
+      },
+      {
+         "id": "59",
+         "question": "In Android, you can raise notifications via ________",
+         "optionA": "Notification",
+         "optionB": "NotificationManager",
+         "optionC": "note",
+         "optionD": "Manager",
+         "rightAnswer": "NotificationManager"
+      },
+      {
+         "id": "60",
+         "question": "Android is licensed under which open source licensing license?",
+         "optionA": "Gnu’s GPL",
+         "optionB": "Apache/MIT",
+         "optionC": "OSS",
+         "optionD": "Sourceforge",
+         "rightAnswer": "Apache/MIT"
+      },
+      {
+         "id": "61",
+         "question": " Although most people’s first thought when they think of Android is Google, Android is not actually owned by Google. Who owns the Android platform?",
+         "optionA": "Oracle Technology",
+         "optionB": "Dalvik",
+         "optionC": "Open Handset Alliance",
+         "optionD": "The above statement is  and Android is owned by Google",
+         "rightAnswer": "Open Handset Alliance"
+      },
+      {
+         "id": "62",
+         "question": " As an Android programmer, what version of Android should you use as your minimum development target?",
+         "optionA": "Versions 1.6 or 2.0",
+         "optionB": "Versions 1.0 or 1.1",
+         "optionC": "Versions 1.2 or 1.3",
+         "optionD": "Versions 2.3 or 3.0",
+         "rightAnswer": "Versions 1.6 or 2.0"
+      },
+      {
+         "id": "63",
+         "question": "What was Google’s main business motivation for supporting Android?",
+         "optionA": "To level the playing field for mobile devices",
+         "optionB": "To directly compete with the iPhone",
+         "optionC": "To corner the mobile device application market for licensing purposes",
+         "optionD": "To allow them to advertise more",
+         "rightAnswer": "To allow them to advertise more"
+      },
+      {
+         "id": "64",
+         "question": "What was the first phone released that ran the Android OS?",
+         "optionA": "Google gPhone",
+         "optionB": "T-Mobile G1",
+         "optionC": "Motorola Droid",
+         "optionD": "HTC Hero",
+         "rightAnswer": "T-Mobile G1"
+      },
+      {
+         "id": "65",
+         "question": "From a phone manufacturer’s point of view, what makes Android so great?",
+         "optionA": "Aside from some specific drivers, it provides everything to make a phone work",
+         "optionB": "It makes the hardware work better",
+         "optionC": "It allows them to compete with Apple’s iPhone",
+         "optionD": "It allows users to create apps, generating revenue for the companies",
+         "rightAnswer": "Aside from some specific drivers, it provides everything to make a phone work"
+      },
+      {
+         "id": "66",
+         "question": "What is a funny fact about the start of Android?",
+         "optionA": "It was orginaly going to be called UFO",
+         "optionB": "The first version of Android was released without an actual phone on the market",
+         "optionC": "Androids main purpose was to unlock your car door when you left the keys inside of it.",
+         "optionD": "Was going to be a closed source application to make more money for its company.",
+         "rightAnswer": "The first version of Android was released without an actual phone on the market"
+      },
+      {
+         "id": "67",
+         "question": "What year was the Open Handset Alliance announced?",
+         "optionA": "2005",
+         "optionB": "2006",
+         "optionC": "2007",
+         "optionD": "2008",
+         "rightAnswer": "2007"
+      },
+      {
+         "id": "68",
+         "question": "Android tries hard to ______________   low-level components, such as the software stack, with interfaces so that vendor-specific code can be managed easily.",
+         "optionA": "confound",
+         "optionB": "absract",
+         "optionC": "modularize",
+         "optionD": "compound",
+         "rightAnswer": "absract"
+      },
+      {
+         "id": "69",
+         "question": "When did Google purchase Android?",
+         "optionA": "2007",
+         "optionB": "2005",
+         "optionC": "2008",
+         "optionD": "2010",
+         "rightAnswer": "2005"
+      },
+      {
+         "id": "70",
+         "question": "Android releases since 1.5 have been given nicknames derived how?",
+         "optionA": "Adjective and strange animal",
+         "optionB": "Food",
+         "optionC": "Something that starts w/ ‘A’ -> Something that starts w/ ‘B’…",
+         "optionD": "American states",
+         "rightAnswer": "Food"
+      },
+      {
+         "id": "71",
+         "question": "hich one is not a nickname of a version of Andriod?",
+         "optionA": "cupcake",
+         "optionB": "Gingerbread",
+         "optionC": "Honeycomb",
+         "optionD": "Muffin",
+         "rightAnswer": "Muffin"
+      },
+      {
+         "id": "72",
+         "question": "Which Android version had the greatest share of the market as of January 2011?",
+         "optionA": "1.1",
+         "optionB": "1.5",
+         "optionC": "2.3",
+         "optionD": "3.4",
+         "rightAnswer": "1.5"
+      },
+      {
+         "id": "73",
+         "question": "Which piece of code used in Android is not open source?",
+         "optionA": "Keypad driver",
+         "optionB": "WiFi? driver",
+         "optionC": "Audio driver",
+         "optionD": "Power management",
+         "rightAnswer": "WiFi? driver"
+      },
+      {
+         "id": "74",
+         "question": "Which among these are NOT a part of Android’s native libraries?",
+         "optionA": "Webkit",
+         "optionB": "Dalvik",
+         "optionC": "OpenGL",
+         "optionD": "SQLite",
+         "rightAnswer": "Dalvik"
+      },
+      {
+         "id": "75",
+         "question": "Android is based on Linux for the following reason.",
+         "optionA": "Security",
+         "optionB": "Portability",
+         "optionC": "Networking",
+         "optionD": "All of these",
+         "rightAnswer": "All of these"
+      },
+      {
+         "id": "76",
+         "question": "What operating system is used as the base of the Android stack?",
+         "optionA": "Linux",
+         "optionB": "Windows",
+         "optionC": "Java",
+         "optionD": "XML",
+         "rightAnswer": "Linux"
+      },
+      {
+         "id": "77",
+         "question": "What year was development on the Dalvik virtual machine started?",
+         "optionA": "2003",
+         "optionB": "2005",
+         "optionC": "2007",
+         "optionD": "2008",
+         "rightAnswer": "2005"
+      },
+      {
+         "id": "78",
+         "question": "What is a key difference with the distribution of apps for Android based devices than other mobile device platform applications?",
+         "optionA": "Applications are distributed by Apple App Store only",
+         "optionB": "Applications are distributed by multiple vendors with different policies on applications.",
+         "optionC": "Applications are distributed by multiple vendors with the exact same policies on applications.",
+         "optionD": "Applications are distributed by the Android Market only.",
+         "rightAnswer": "Applications are distributed by multiple vendors with different policies on applications."
+      },
+      {
+         "id": "79",
+         "question": "When developing for the Android OS, Java byte code is compiled into what?",
+         "optionA": "Java source code",
+         "optionB": "Dalvik application code",
+         "optionC": "Dalvik byte code",
+         "optionD": "C source code",
+         "rightAnswer": "Dalvik byte code"
+      },
+      {
+         "id": "80",
+         "question": "Which of these are not one of the three main components of the APK?",
+         "optionA": "Dalvik Executable",
+         "optionB": "Resources",
+         "optionC": "Native Libraries",
+         "optionD": "Webkit",
+         "rightAnswer": "Webkit"
+      },
+      {
+         "id": "81",
+         "question": "What is the name of the program that converts Java byte code into Dalvik byte code?",
+         "optionA": "Android Interpretive Compiler (AIC)",
+         "optionB": "Dalvik Converter",
+         "optionC": "Dex compiler",
+         "optionD": "Mobile Interpretive Compiler (MIC)",
+         "rightAnswer": "Dex compiler"
+      },
+      {
+         "id": "82",
+         "question": "Android Applications must be signed.",
+         "optionA": "After they are installed",
+         "optionB": "Before they are installed",
+         "optionC": "Never",
+         "optionD": "Within two weeks of installation",
+         "rightAnswer": "Before they are installed"
+      },
+      {
+         "id": "83",
+         "question": "What is contained within the manifest xml file?",
+         "optionA": "The permissions the app requires",
+         "optionB": "The list of strings used in the app",
+         "optionC": "The source code",
+         "optionD": "All other choices",
+         "rightAnswer": "The permissions the app requires"
+      },
+      {
+         "id": "84",
+         "question": "What is contained within the Layout xml file?",
+         "optionA": "Orientations and layouts that specify what the display looks like.",
+         "optionB": "The permissions required by the app.",
+         "optionC": "The strings used in the app.",
+         "optionD": "The code which is compiled to run the app.",
+         "rightAnswer": "Orientations and layouts that specify what the display looks like."
+      },
+      {
+         "id": "85",
+         "question": "The Emulator is identical to running a real phone EXCEPT when emulating/simulating what?",
+         "optionA": "Telephony",
+         "optionB": "Applications",
+         "optionC": "Sensors",
+         "optionD": "The emulator can emulate/simulate all aspects of a smart phone.",
+         "rightAnswer": "Sensors"
+      },
+      {
+         "id": "86",
+         "question": "The R file is a(an) generated file",
+         "optionA": "Automatically",
+         "optionB": "Manually",
+         "optionC": "Emulated",
+         "optionD": "None of the above",
+         "rightAnswer": "Automatically"
+      },
+      {
+         "id": "87",
+         "question": "An activity can be thought of as corresponding to what?",
+         "optionA": "A Java project",
+         "optionB": "A Java class",
+         "optionC": "A method call",
+         "optionD": "An object field",
+         "rightAnswer": "A Java class"
+      },
+      {
+         "id": "88",
+         "question": "While developing Android applications, developers can test their apps on…",
+         "optionA": "Emulator included in Android SDK",
+         "optionB": "Physical Android phone",
+         "optionC": "Third-party Emulators (Youwave, etc.)",
+         "optionD": "All three options will work.",
+         "rightAnswer": "All three options will work."
+      },
+      {
+         "id": "89",
+         "question": "Which of the following is the most “resource hungry” part of dealing with Activities on Android",
+         "optionA": "Closing an app",
+         "optionB": "Suspending an app",
+         "optionC": "Opening a new app",
+         "optionD": "Restoring the most recent app",
+         "rightAnswer": "Opening a new app"
+      },
+      {
+         "id": "90",
+         "question": "When an activity doesn’t exist in memory it is in.",
+         "optionA": "Starting state",
+         "optionB": "Running state",
+         "optionC": "Loading state",
+         "optionD": "Inexistent state.",
+         "rightAnswer": "Starting state"
+      },
+      {
+         "id": "91",
+         "question": "Which of the following is NOT a state in the lifecycle of a service?",
+         "optionA": "Starting",
+         "optionB": "Running",
+         "optionC": "Destroyed",
+         "optionD": "Paused",
+         "rightAnswer": "Paused"
+      },
+      {
+         "id": "92",
+         "question": "Intents",
+         "optionA": "are messages that are sent among major building blocks",
+         "optionB": "trigger activities to being, services to start or stop, or broadcast",
+         "optionC": "are asynchronous",
+         "optionD": "all of these",
+         "rightAnswer": "all of these"
+      },
+      {
+         "id": "93",
+         "question": "Broadcast receivers are Android’s implementation of a system-wide publish/subscribe mechanism, or more precisely, what design pattern?",
+         "optionA": "Observer",
+         "optionB": "Facade",
+         "optionC": "Mediator",
+         "optionD": "Command",
+         "rightAnswer": "Observer"
+      },
+      {
+         "id": "94",
+         "question": "What will services be used for in the Yamba project?",
+         "optionA": "Recompile the source code",
+         "optionB": "It will update tweets periodically in the background",
+         "optionC": "The services will pause the app",
+         "optionD": "Configures the user interface",
+         "rightAnswer": "It will update tweets periodically in the background"
+      },
+      {
+         "id": "95",
+         "question": "Status data will be exposed to the rest of the Android system via:",
+         "optionA": "Intents",
+         "optionB": "A content provider",
+         "optionC": "Network receivers",
+         "optionD": "Altering permissions",
+         "rightAnswer": "A content provider"
+      },
+      {
+         "id": "96",
+         "question": "How does Gargenta approach the problem of the app acting sluggishly due to network latency?",
+         "optionA": "Starting over",
+         "optionB": "Switching API levels",
+         "optionC": "Refactoring code",
+         "optionD": "Multithreading",
+         "rightAnswer": "Multithreading"
+      },
+      {
+         "id": "97",
+         "question": "If the UI begins to behave sluggishly or crash while making network calls, this is likely due to…",
+         "optionA": "Network latency",
+         "optionB": "Hardware malfunctions",
+         "optionC": "Virus on the Server",
+         "optionD": "Activity manager contains too much.",
+         "rightAnswer": "Network latency"
+      },
+      {
+         "id": "98",
+         "question": "Which of the following is NOT an activity we will be creating for the YAMBA project?",
+         "optionA": "Preferences Activity",
+         "optionB": "Update Activity",
+         "optionC": "Timeline Activity",
+         "optionD": "Status Activity",
+         "rightAnswer": "Update Activity"
+      },
+      {
+         "id": "99",
+         "question": "What will services be used for in the Yamba project?",
+         "optionA": "Recompile the source code",
+         "optionB": "It will update tweets periodically in the background",
+         "optionC": "The services will pause the app",
+         "optionD": "Configures the user interface",
+         "rightAnswer": "It will update tweets periodically in the background"
+      },
+      {
+         "id": "100",
+         "question": "The android OS comes with many useful system services, which include processes you can easily ask for things such as your..",
+         "optionA": "Location",
+         "optionB": "Sensor Readings",
+         "optionC": "WiFi? Hot Spots",
+         "optionD": "All of these and more",
+         "rightAnswer": "All of these and more"
+      }
+   ]
+}

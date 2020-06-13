@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Learn Android Development</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="bannerAdd">ca-app-pub-2863539902912748/1604316743</string>
+    <string name="rewardAdd">ca-app-pub-2863539902912748/1400797452</string>
+    <string name="hint_learn_more">Learn more...</string>
+    <string name="hint_no_chapters">No. of Chapters</string>
+
+    <string name="help_note1">1. Please make sure that for this application, internet connection is not required. All tutorials can be accessed offline. If there is problem while loading pages, then your device is not compatible for Javascript.</string>
+    <string name="help_note2">2. If you want to Zoom In or Zoom Out, you can drag your two fingers for Zoom In and same process for Zoom Out.</string>
+    <string name="help_note3">3. All tutorials and materials for this application are protected and copyright of their respective owners.</string>
+    <string name="help_note4">4. If you have any query or problem about tutorials and topics, you can contact us at mailtoetechpro@gmail.com.</string>
+    <string name="help_note5">5. This application has no intention of business or anything else. Just provide quick reference to learn more and more technology.</string>
+    <string name="action_share">Share</string>
+    <string name="action_help">Help</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="str_help">Help</string>
+    <string name="str_hint_exit_again">Press again for exit</string>
+    <string name="hint_app_share">Hi, I am using \'Learn Android Development\', the No. 1 offline app no internet required. It is very much useful and you must have it. This Application provides an Android, Core Java, SQLite, Tutorials, Examples. Install from </string>
+    <string name="hint_mail_id">mailtoetechpro@gmail.com</string>
+    <string name="hint_subject_feedback">Feedback of Learn Android Development</string>
+</resources>

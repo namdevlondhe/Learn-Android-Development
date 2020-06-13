@@ -1,0 +1,1010 @@
+{
+    "questions": [
+        {
+                "id": "1",
+                "question": "What is the default value of long variable?",
+                "optionA": "0",
+                "optionB": "0.0",
+                "optionC" : "0L",
+                "optionD": "not defined",
+                "rightAnswer" : "0L"
+                    
+        },
+         {
+                "id": "2",
+                "question": "Which of the following is true about super class?",
+                "optionA": "Variables, methods and constructors which are declared private can be accessed only by the members of the super class.",
+                "optionB": "Variables, methods and constructors which are declared protected can be accessed by any subclass of the super class.",
+                "optionC" : "Variables, methods and constructors which are declared public in the superclass can be accessed by any class",
+                "optionD": "All of the above.",
+                "rightAnswer" : "All of the above."
+                    
+        },
+		{
+                "id": "3",
+                "question": "What is an immutable object?",
+                "optionA": "An immutable object can be changed once it is created.",
+                "optionB": "An immutable object can't be changed once it is created",
+                "optionC" : "An immutable object is an instance of an abstract class.",
+                "optionD": "None of the above.",
+                "rightAnswer" : "An immutable object can't be changed once it is created"
+                    
+        },
+        {
+                "id": "4",
+                "question": "What is NullPointerException?",
+                "optionA": "A NullPointerException is thrown when calling the instance method of a null object or modifying/accessing field of a null object.",
+                "optionB": "A NullPointerException is thrown when object is set as null",
+                "optionC" : "A NullPointerException is thrown when object property is set as null.",
+                "optionD": "None of the above",
+                "rightAnswer" : "A NullPointerException is thrown when calling the instance method of a null object or modifying/accessing field of a null object."
+                    
+        },
+        {
+                "id": "5",
+                "question": "Which is the way in which a thread can enter the waiting state?",
+                "optionA": "Invoke its sleep() method.",
+                "optionB": "invoke object's wait method.",
+                "optionC" : "Invoke its suspend() method.",
+                "optionD": "All of the above.",
+                "rightAnswer" : "All of the above."
+                    
+        },
+       {
+                "id": "6",
+                "question": "What will happen if static modifier is removed from the signature of the main method?",
+                "optionA": "Compilation Error",
+                "optionB": "RunTime Error: NoSuchMethodError.",
+                "optionC" : "Program will compile and run without any output.",
+                "optionD": "Program will compile and run to show the required output.",
+                "rightAnswer" : "RunTime Error: NoSuchMethodError."
+                    
+        },
+           {
+                "id": "7",
+                "question": "What is currentThread()?",
+                "optionA": "It is a Thread public static method used to obtain a reference to the current thread.",
+                "optionB": "It is a thread's instance method used to get thread count.",
+                "optionC" : "It is a object's public static method used obtain a reference to the current thread.",
+                "optionD": "It is a object's instance method used to get thread count.",
+                "rightAnswer" : "It is a Thread public static method used to obtain a reference to the current thread."
+                    
+        },
+          {
+                "id": "8",
+                "question": "What is correct syntax for main method of a java class?",
+                "optionA": " public static int main(String[] args)",
+                "optionB": "public int main(String[] args)",
+                "optionC" : "public static void main(String[] args)",
+                "optionD": "None of the above.",
+                "rightAnswer" : "public static void main(String[] args)"
+                    
+        },     
+
+         {
+                "id": "9",
+                "question": "What is the size of int variable?",
+                "optionA": "8 bit",
+                "optionB": "16 bit",
+                "optionC" : "32 bit",
+                "optionD": "64 bit",
+                "rightAnswer" : "32 bit"
+                    
+        },
+         {
+                "id": "10",
+                "question": "What is the default value of String variable?",
+                "optionA": "Both c and d",
+                "optionB": "none of above",
+                "optionC" : "null",
+                "optionD": "not defined",
+                "rightAnswer" : "null"
+                    
+        },
+	{
+                "id": "11",
+                "question": "Which of the following is true about super class?",
+                "optionA": "Variables, methods and constructors which are declared private can be accessed only by the members of the super class.",
+                "optionB": "Variables, methods and constructors which are declared protected can be accessed by any subclass of the super class.",
+                "optionC" : "Variables, methods and constructors which are declared public in the superclass can be accessed by any class.",
+                "optionD": "All of the above.",
+                "rightAnswer" : "All of the above."
+                    
+        },
+	{
+                "id": "12",
+                "question": "What is an Interface?",
+                "optionA": "An interface is a collection of abstract methods.",
+                "optionB": "Interface is an abstract class.",
+                "optionC" : "Interface is an concrete class.",
+                "optionD": "None of the above.",
+                "rightAnswer" : "Interface is an concrete class."
+                    
+        },
+	{
+                "id": "13",
+                "question": " What is JRE?",
+                "optionA": "JRE is a java based GUI application.",
+                "optionB": "JRE is an application development framework",
+                "optionC" : "JRE is an implementation of the Java Virtual Machine which executes Java programs.",
+                "optionD": "None of the above.",
+                "rightAnswer" : "JRE is an implementation of the Java Virtual Machine which executes Java programs."
+                    
+        },
+	{
+                "id": "14",
+                "question": "What is NullPointerException?",
+                "optionA": "A NullPointerException is thrown when calling the instance method of a null object or modifying/accessing field of a null object.",
+                "optionB": "A NullPointerException is thrown when object is set as null.",
+                "optionC" : "A NullPointerException is thrown when object property is set as null.",
+                "optionD": "None of the above.",
+                "rightAnswer" : "A NullPointerException is thrown when calling the instance method of a null object or modifying/accessing field of a null object."
+                    
+        },
+	{
+                "id": "15",
+                "question": "What invokes a thread's run() method?",
+                "optionA": "JVM invokes the thread's run() method when the thread is initially executed.",
+                "optionB": "Main application running the thread.",
+                "optionC" : "start() method of the thread class.",
+                "optionD": "None of the above.",
+                "rightAnswer" : "JVM invokes the thread's run() method when the thread is initially executed."
+                    
+        },
+	{
+                "id": "16",
+                "question": "What is a marker interface?",
+                "optionA": "marker interface is an interface with no method.",
+                "optionB": "marker interface is an interface with single method, mark().",
+                "optionC" : "marker interface is an interface with single method, marker().",
+                "optionD": "none of the above.",
+                "rightAnswer" : "marker interface is an interface with no method."
+                    
+        },
+	{
+                "id": "17",
+                "question": "Method Overloading is an example of",
+                "optionA": "Static Binding",
+                "optionB": "Dynamic Binding",
+                "optionC" : "Both of the above",
+                "optionD": "None of the above",
+                "rightAnswer" : "Static Binding"
+                    
+        },
+	{
+                "id": "18",
+                "question": "Which method must be implemented by all threads?",
+                "optionA": "wait",
+                "optionB": "run",
+                "optionC" : "start",
+                "optionD": "stop",
+                "rightAnswer" : "run"
+                    
+        },
+	{
+                "id": "19",
+                "question": "Which of the following is false for Static Initializers?",
+                "optionA": "A static initializer block resembles a method with a name, arguments, and return type",
+                "optionB": "They need to be referred from outside the class definition.",
+                "optionC" : "The code in a static initializer block is executed by the virtual machine when the class is loaded.",
+                "optionD": "Both a and b",
+                "rightAnswer" : "Both a and b"
+                    
+        },
+	{
+                "id": "20",
+                "question": "________ is the process of converting a primitive type data into its corresponding wrapper class object instance.",
+                "optionA": "unboxing",
+                "optionB": "autoboxing",
+                "optionC" : "boxing",
+                "optionD": "altoboxing",
+                "rightAnswer" : "autoboxing"
+                    
+        },
+
+
+	{
+                "id": "21",
+                "question": "___________ means each method in a multithreaded environment doesn’t access data by multiple threads at the same time.",
+                "optionA": "Thread detach",
+                "optionB": "Thread isolation",
+                "optionC" : "Thread safety",
+                "optionD": "Thread lock",
+                "rightAnswer" : "Thread safety"
+                    
+        },
+
+       {
+                "id": "22",
+                "question": "________ are utilized to control the access to an object especially in multi threaded programming",
+                "optionA": "Asynchronized methods",
+                "optionB": "Serialized methods",
+                "optionC" : "Synchronized methods",
+                "optionD": "Both a and c",
+                "rightAnswer" : "Synchronized methods"
+                    
+        },
+
+	{
+                "id": "23",
+                "question": "What is the difference between java beans and EJB?",
+                "optionA": "Java beans are reusable components that can be used for customized user objects while EJB are reusable components that are developed to comply with enterprise specification adhering to setter and getter methods and two public constructors.",
+                "optionB": "Java beans are reusable components that can be used for customized user objects while EJB are reusable components that are developed to comply with enterprise specification adhering to setter and getter methods and one public constructor.",
+                "optionC" : "Java beans are reusable components that can be used for customized user objects while EJB are reusable components that are developed to comply with enterprise specification adhering to setter and getter methods and many public constructors.",
+                "optionD": "Java beans are reusable components that can be used for customized user objects while EJB are reusable components that are developed to comply with enterprise specification adhering to setter and getter methods with no public constructor.",
+                "rightAnswer" : "Java beans are reusable components that can be used for customized user objects while EJB are reusable components that are developed to comply with enterprise specification adhering to setter and getter methods and many public constructors."
+                    
+        },
+
+	{
+                "id": "24",
+                "question": "_____ method of java is invoked by JVM to reclaim the inaccessible memory location",
+                "optionA": "reclaim",
+                "optionB": "final",
+                "optionC" : "finalize",
+                "optionD": "Both b and c",
+                "rightAnswer" : "finalize"
+                    
+        },
+
+	{
+                "id": "25",
+                "question": "What are field variables?",
+                "optionA": "Variable declared within a method",
+                "optionB": "Variable declared outside a constructor but inside a class",
+                "optionC" : "Both b and d",
+                "optionD": "Variable that is declared as a member of a class",
+                "rightAnswer" : "Both b and d"
+                    
+        },
+
+	{
+                "id": "26",
+                "question": "Which of the following below is FALSE for abstract class?",
+                "optionA": "An abstract class can have only abstract methods",
+                "optionB": "An abstract class can have both abstract and concrete methods",
+                "optionC" : "An abstract class is to be extended by another class",
+                "optionD": "A class can extend only one abstract class",
+                "rightAnswer" : "An abstract class can have only abstract methods"
+                    
+        },
+
+	{
+                "id": "27",
+                "question": "Which of the following is TRUE for serialization in JAVA?",
+                "optionA": "Process of converting classes’ instance into stream of bytes",
+                "optionB": "Doesn’t help in persisting data",
+                "optionC" : "Both a and d",
+                "optionD": "An operation in which an object’s internal state is converted into a stream of bytes",
+                "rightAnswer" : "An operation in which an object’s internal state is converted into a stream of bytes"
+                    
+        },
+
+	{
+                "id": "28",
+                "question": "_______ is a command that disassembles a class file",
+                "optionA": "javaamd",
+                "optionB": "javacmd",
+                "optionC" : "javad",
+                "optionD": "javap",
+                "rightAnswer" : "javap"
+                    
+        },
+
+	{
+                "id": "29",
+                "question": "What is the purpose of code attribute of applet tags?",
+                "optionA": "A URL that points to the class of the applet",
+                "optionB": "A URL to the applet when it is stored in a Java Archive or ZIP file",
+                "optionC" : "Indicates the base URL of the applet if the code attribute is relative",
+                "optionD": "Defines the horizontal spacing around the applet",
+                "rightAnswer" : "A URL that points to the class of the applet"
+                    
+        },
+
+	{
+                "id": "30",
+                "question": "Which of the following statements is true ?",
+                "optionA": "swing provide better look and feel than awt",
+                "optionB": "awt provide better look and feel than swing",
+                "optionC" : "Neither a nor b",
+                "optionD": "None of these",
+                "rightAnswer" : "swing provide better look and feel than awt"
+                    
+        },
+
+	{
+                "id": "31",
+                "question": "How many access specifiers are available in java?",
+                "optionA": "1",
+                "optionB": "2",
+                "optionC" : "3",
+                "optionD": "4",
+                "rightAnswer" : "4"
+                    
+        },
+
+	{
+                "id": "32",
+                "question": " Method which is used for accepting input i.e readLine() belongs to________package.",
+                "optionA": "javax.swing",
+                "optionB": "java.awt",
+                "optionC" : "java.io",
+                "optionD": "java.lang",
+                "rightAnswer" : "java.io"
+                    
+        },
+
+	{
+                "id": "33",
+                "question": "For accessing date and time for system in your program, you have to import __________ package",
+                "optionA": "io",
+                "optionB": "util",
+                "optionC" : "lang",
+                "optionD": "all of the above",
+                "rightAnswer" : "util"
+                    
+        },
+
+	{
+                "id": "34",
+                "question": "Drawing graphics is ________________ process.",
+                "optionA": "event-driven",
+                "optionB": "procedure-driven",
+                "optionC" : "both 1 and 2",
+                "optionD": "none of these",
+                "rightAnswer" : "event-driven"
+                    
+        },
+
+	{
+                "id": "35",
+                "question": "For interpretation of java program, _________ command is used.",
+                "optionA": "java",
+                "optionB": "javac",
+                "optionC" : "javap",
+                "optionD": "none of these",
+                "rightAnswer" : "java"
+                    
+        },
+
+	{
+                "id": "36",
+                "question": "What is mean by jar?",
+                "optionA": "java archived",
+                "optionB": "java array",
+                "optionC" : "java architecture",
+                "optionD": "none of these",
+                "rightAnswer" : "java archived"
+                    
+        },
+
+	{
+                "id": "38",
+                "question": "what is jdb?",
+                "optionA": "java compiler",
+                "optionB": "java Interpreter",
+                "optionC" : "java Disassemble",
+                "optionD": "java debugger",
+                "rightAnswer" : "java debugger"
+                    
+        },
+	{
+                "id": "39",
+                "question": "Hot java is _________",
+                "optionA": "system software",
+                "optionB": "web browser",
+                "optionC" : "java environment",
+                "optionD": "IDE",
+                "rightAnswer" : "web browser"
+                    
+        },
+	{
+                "id": "40",
+                "question": "javah stands for______",
+                "optionA": "java compiler",
+                "optionB": "java Interpreter",
+                "optionC" : "java Disassemble",
+                "optionD": "java header file",
+                "rightAnswer" : "java header file"
+                    
+        },
+	{
+                "id": "41",
+                "question": "What is the data type of array which we used as parameter to main method?",
+                "optionA": "int",
+                "optionB": "char",
+                "optionC" : "String",
+                "optionD": "Double",
+                "rightAnswer" : "String"
+                    
+        },
+	{
+                "id": "42",
+                "question": "Why to use array as a parameter in main method ?",
+                "optionA": "it is syntax",
+                "optionB": "it is easy to write",
+                "optionC" : "it stores multiple values",
+                "optionD": "none of these",
+                "rightAnswer" : "it stores multiple values"
+                    
+        },
+	{
+                "id": "43",
+                "question": "How many types of literals available in java?",
+                "optionA": "4 types",
+                "optionB": "2 types",
+                "optionC" : "6 types",
+                "optionD": "5 types",
+                "rightAnswer" : "5 types"
+                    
+        },
+	{
+                "id": "44",
+                "question": "How many keywords are available in java?",
+                "optionA": "30",
+                "optionB": "more than 50",
+                "optionC" : "48",
+                "optionD": "50",
+                "rightAnswer" : "48"
+                    
+        },
+	{
+                "id": "45",
+                "question": "Why we need to write static keyword to main method?",
+                "optionA": "To create single copy",
+                "optionB": "it is in syntax",
+                "optionC" : "it give access to other method",
+                "optionD": "none of these",
+                "rightAnswer" : "To create single copy"
+                    
+        },
+	{
+                "id": "46",
+                "question": "Arguments passed via command line (command prompt) are stored as ______ data type.",
+                "optionA": "Data type of argument",
+                "optionB": "integer",
+                "optionC" : "string",
+                "optionD": "double",
+                "rightAnswer" : "string"
+                    
+        },
+	{
+                "id": "47",
+                "question": "If a class contains one or more abstract methods then it is declared as _________",
+                "optionA": "Static",
+                "optionB": "final",
+                "optionC" : "abstract",
+                "optionD": "all of the above",
+                "rightAnswer" : "abstract"
+                    
+        },
+	{
+                "id": "48",
+                "question": "Vector class available in _____",
+                "optionA": "java.io package",
+                "optionB": "java.util package",
+                "optionC" : "java.lang package",
+                "optionD": "java.SQL package",
+                "rightAnswer" : "java.util package"
+                    
+        },
+	{
+                "id": "49",
+                "question": "For creating dynamic array, we have to use___",
+                "optionA": "array",
+                "optionB": "String",
+                "optionC" : "vector",
+                "optionD": "none of these",
+                "rightAnswer" : "vector"
+                    
+        },
+	{
+                "id": "50",
+                "question": "______________inheritance is achieved using interface in java.",
+                "optionA": "multiple",
+                "optionB": "multilevel",
+                "optionC" : "Hierarchical",
+                "optionD": "Single",
+                "rightAnswer" : "multiple"
+                    
+        },
+	{
+                "id": "51",
+                "question": "Methods of the interface are _______ in nature.",
+                "optionA": "abstract",
+                "optionB": "variable",
+                "optionC" : "static",
+                "optionD": "none of these",
+                "rightAnswer" : "abstract"
+                    
+        },
+	{
+                "id": "52",
+                "question": "How many classes we are able to extend in java?",
+                "optionA": "One",
+                "optionB": "two",
+                "optionC" : "three",
+                "optionD": "four",
+                "rightAnswer" : "One"
+                    
+        },
+	{
+                "id": "53",
+                "question": "For using interface in class which keyword is used?",
+                "optionA": "extends",
+                "optionB": "implements",
+                "optionC" : "throws",
+                "optionD": "throw",
+                "rightAnswer" : "implements"
+                    
+        },
+	{
+                "id": "54",
+                "question": "Which of the following terms are included inside the package?",
+                "optionA": "classes",
+                "optionB": "Method",
+                "optionC" : "Interfaces",
+                "optionD": "all of the above",
+                "rightAnswer" : "all of the above"
+                    
+        },
+	{
+                "id": "55",
+                "question": "Which keyword represents object of the present class?",
+                "optionA": "interface",
+                "optionB": "package",
+                "optionC" : "this",
+                "optionD": "static",
+                "rightAnswer" : "this"
+                    
+        },
+	{
+                "id": "56",
+                "question": "______ method cannot be overridden.",
+                "optionA": "super",
+                "optionB": "static",
+                "optionC" : "final",
+                "optionD": "println",
+                "rightAnswer" : "final"
+                    
+        },
+	{
+                "id": "57",
+                "question": "The process of creating exact copy of the existing object is known as_________ .",
+                "optionA": "cloning",
+                "optionB": "overloading",
+                "optionC" : "overriding",
+                "optionD": "coping",
+                "rightAnswer" : "cloning"
+                    
+        },
+	{
+                "id": "58",
+                "question": "The methods and data of class Character are defined in the ____________ file.",
+                "optionA": "ASCII",
+                "optionB": "UnicodeData",
+                "optionC" : "Txt file",
+                "optionD": "Jar file",
+                "rightAnswer" : "UnicodeData"
+                    
+        },
+	{
+                "id": "59",
+                "question": "In java, gc() method is available in which package?",
+                "optionA": "java.lang",
+                "optionB": "java.util",
+                "optionC" : "java.awt",
+                "optionD": "java.io",
+                "rightAnswer" : "java.lang"
+                    
+        },
+	{
+                "id": "60",
+                "question": "uppercase() and lowercase() methods are accessed by using ______ method .",
+                "optionA": "object",
+                "optionB": "class",
+                "optionC" : "interface",
+                "optionD": "all of these",
+                "rightAnswer" : "class"
+                    
+        },
+	{
+                "id": "61",
+                "question": "______ class is the indirect base class of JApplet.",
+                "optionA": "container",
+                "optionB": "component",
+                "optionC" : "canvas",
+                "optionD": "collection",
+                "rightAnswer" : "component"
+                    
+        },
+	{
+                "id": "62",
+                "question": "java is a _____________language.",
+                "optionA": "object oriented",
+                "optionB": "procedural oriented",
+                "optionC" : "system oriented",
+                "optionD": "platform oriented",
+                "rightAnswer" : "object oriented"
+                    
+        },
+	{
+                "id": "63",
+                "question": "Java is developed by______",
+                "optionA": "Microsoft",
+                "optionB": "Oracle",
+                "optionC" : "Sun",
+                "optionD": "Google",
+                "rightAnswer" : "Sun"
+                    
+        },
+	{
+                "id": "64",
+                "question": "What is JDK?",
+                "optionA": "java development kit",
+                "optionB": "java deployment kit",
+                "optionC" : "java demo kit",
+                "optionD": "java distributed kit",
+                "rightAnswer" : "java development kit"
+                    
+        },
+	{
+                "id": "65",
+                "question": "API document is ______ file.",
+                "optionA": "Java",
+                "optionB": "class",
+                "optionC" : "Html",
+                "optionD": "Jsp",
+                "rightAnswer" : "Html"
+                    
+        },
+	{
+                "id": "66",
+                "question": "Object which can store group of other objects is known as_______",
+                "optionA": "Collection object",
+                "optionB": "Java object",
+                "optionC" : "Package",
+                "optionD": "none of these",
+                "rightAnswer" : "Collection object"
+                    
+        },
+	{
+                "id": "67",
+                "question": "Who starts the default thread available in java program?",
+                "optionA": "System class",
+                "optionB": "main method",
+                "optionC" : "static keyword",
+                "optionD": "none of these",
+                "rightAnswer" : "main method"
+                    
+        },
+	{
+                "id": "68",
+                "question": "Suspend thread can be revived by using ___________ method.",
+                "optionA": "start",
+                "optionB": "suspend",
+                "optionC" : "resume",
+                "optionD": "yield",
+                "rightAnswer" : "resume"
+                    
+        },
+	{
+                "id": "69",
+                "question": "Runnable is a_____",
+                "optionA": "class",
+                "optionB": "Method",
+                "optionC" : "Variable",
+                "optionD": "Interface",
+                "rightAnswer" : "Interface"
+                    
+        },
+	{
+                "id": "70",
+                "question": "Condition which cause run time error in program is known as _______",
+                "optionA": "Error",
+                "optionB": "Exception",
+                "optionC" : "conditional statement",
+                "optionD": "none of these",
+                "rightAnswer" : "Exception"
+                    
+        },
+	{
+                "id": "71",
+                "question": "Which of the following can be used to access the first element of an array named arrOne?",
+                "optionA": "arrOne[2]",
+                "optionB": "arrOne[0]",
+                "optionC" : "arrOne[3]",
+                "optionD": "arrOne[1]",
+                "rightAnswer" : "arrOne[0]"
+                    
+        },
+	{
+                "id": "72",
+                "question": "Which loop type would you use to repeat a task a set number of times?",
+                "optionA": "do-while",
+                "optionB": "switch",
+                "optionC" : "for",
+                "optionD": "while",
+                "rightAnswer" : "for"
+                    
+        },
+	{
+                "id": "73",
+                "question": "Which of the following rules must be followed when naming variables?",
+                "optionA": "No spaces or symbols in variable names, variable names cannot start with numbers, variable names can only contain letters, numbers, and the underscore ( _ ) symbol",
+                "optionB": "Variable names cannot start with numbers",
+                "optionC" : "Variable names can only contain letters, numbers, and the underscore ( _ ) symbol",
+                "optionD": "No spaces or symbols in variable names",
+                "rightAnswer" : "No spaces or symbols in variable names, variable names cannot start with numbers, variable names can only contain letters, numbers, and the underscore ( _ ) symbol"
+                    
+        },
+	{
+                "id": "74",
+                "question": "Which of the following snippets of code can be used to instantiate an object?",
+                "optionA": "AClass.instantiate();",
+                "optionB": "Class A = new AClass();",
+                "optionC" : "AClass.newClass()",
+                "optionD": "AClass.create();",
+                "rightAnswer" : "Class A = new AClass();"
+                    
+        },
+	{
+                "id": "75",
+                "question": "What will be the output of this codeString aString = Crayons are great System.out.print(aString.charAt(8))",
+                "optionA": "r",
+                "optionB": "s",
+                "optionC" : "a",
+                "optionD": "n",
+                "rightAnswer" : "a"
+                    
+        },
+		{
+                "id": "76",
+                "question": "Which interface should be used by a Java program to be able to play audio files?",
+                "optionA": "AudioClip",
+                "optionB": "TextListener",
+                "optionC" : "ActionListener",
+                "optionD": "WindowListener",
+                "rightAnswer" : "AudioClip"
+                    
+        },
+		{
+                "id": "77",
+                "question": "What is it called when an instance of a class is also an instance of its superclass?",
+                "optionA": "Instantiation",
+                "optionB": "Polymorphism",
+                "optionC" : "Inheritance",
+                "optionD": "Encapsulation",
+                "rightAnswer" : "Polymorphism"
+                    
+        },
+		{
+                "id": "78",
+                "question": "Which HTML tag can be used to place applets on a webpage?",
+                "optionA": "< body >",
+                "optionB": "< form >",
+                "optionC" : "< applet >",
+                "optionD": "< meta >",
+                "rightAnswer" : "< applet >"
+                    
+        },
+		{
+                "id": "79",
+                "question": "Which package is imported by default into Java programs?",
+                "optionA": "java.awt",
+                "optionB": "java.io",
+                "optionC" : "java.awt.font",
+                "optionD": "java.lang",
+                "rightAnswer" : "java.lang"
+                    
+        },
+		{
+                "id": "80",
+                "question": "Which of the following would you use to test a variable for five different values?",
+                "optionA": "if statement",
+                "optionB": "else-if statement",
+                "optionC" : "else statement",
+                "optionD": "switch statement",
+                "rightAnswer" : "switch statement"
+                    
+        },{
+                "id": "81",
+                "question": "What kind of data will this variable store - char fName;",
+                "optionA": "A single character",
+                "optionB": "Numeric",
+                "optionC" : "true/false value",
+                "optionD": "Text string",
+                "rightAnswer" : "A single character"
+                    
+        },
+		{
+                "id": "82",
+                "question": "Which keyword would you use if you wanted a class to use an interface?",
+                "optionA": "extends",
+                "optionB": "implements",
+                "optionC" : "new",
+                "optionD": "main()",
+                "rightAnswer" : "implements"
+                    
+        },
+		{
+                "id": "83",
+                "question": "This code - double randNumber = (int) (Math.random() * 40 + 20); will generate a random number between what range?",
+                "optionA": "20-40",
+                "optionB": "0-40",
+                "optionC" : "20-60",
+                "optionD": "0-60",
+                "rightAnswer" : "20-60"
+                    
+        },
+		{
+                "id": "84",
+                "question": "What is the name of the process by which two or more strings are joined together?",
+                "optionA": "Concatenation",
+                "optionB": "charAt",
+                "optionC" : "Method",
+                "optionD": "Association",
+                "rightAnswer" : "Concatenation"
+                    
+        },
+		{
+                "id": "85",
+                "question": "Which method is used in every Java program?",
+                "optionA": "type()",
+                "optionB": "System.out.println()",
+                "optionC" : "System.out.print()",
+                "optionD": "main()",
+                "rightAnswer" : "main()"
+                    
+        },
+		{
+                "id": "86",
+                "question": "Which Java exception should be used to handle input/output errors?",
+                "optionA": "NoSuchMethodException",
+                "optionB": "IOException",
+                "optionC" : "IOException",
+                "optionD": "ArithmeticException",
+                "rightAnswer" : "IOException"
+                    
+        },{
+                "id": "87",
+                "question": "What is the purpose of a class constructor?",
+                "optionA": "To make objects initially have certain values when they are instantiated",
+                "optionB": "To extend a class",
+                "optionC" : "To pass values to methods for a class",
+                "optionD": "To instantiate an object",
+                "rightAnswer" : "To make objects initially have certain values when they are instantiated"
+                    
+        },
+		{
+                "id": "88",
+                "question": "Which keyword would you use to break out of a loop?",
+                "optionA": "continue",
+                "optionB": "for",
+                "optionC" : "break",
+                "optionD": "while",
+                "rightAnswer" : "break"
+                    
+        },
+		{
+                "id": "89",
+                "question": "Which of the following GUI components can be included in a Java frame?",
+                "optionA": "textbox",
+                "optionB": "label",
+                "optionC" : "button",
+                "optionD": "textbox, label, button, images",
+                "rightAnswer" : "textbox, label, button, images"
+                    
+        },
+		{
+                "id": "90",
+                "question": "Which layout class would you use to lay out components from left to right?",
+                "optionA": "DirLayout",
+                "optionB": "FlowLayout",
+                "optionC" : "GridLayout",
+                "optionD": "SpacedLayout",
+                "rightAnswer" : "FlowLayout"
+                    
+        },
+		{
+                "id": "91",
+                "question": "Which interface would you use to handle the event of a user clicking inside a textbox?",
+                "optionA": "WindowListener",
+                "optionB": "FocusListener",
+                "optionC" : "ActionListener",
+                "optionD": "KeyListener",
+                "rightAnswer" : "FocusListener"
+                    
+        },{
+                "id": "92",
+                "question": "Following code will result in: int a = 3.5;",
+                "optionA": "Compilation error",
+                "optionB": "Runtime error",
+                "optionC" : "A being 3.5",
+                "optionD": "A being 3",
+                "rightAnswer" : "Compilation error"
+                    
+        },
+		{
+                "id": "93",
+                "question": "Web services are the amalgamation of",
+                "optionA": "XML and SOAP",
+                "optionB": "XML and HTTP",
+                "optionC" : "WSDL and UDDI",
+                "optionD": "eb-XML and WSDL",
+                "rightAnswer" : "XML and HTTP"
+                    
+        },
+		{
+                "id": "94",
+                "question": "Web Services attempts to describe architecture based on",
+                "optionA": "Representational State Transfer (REST)",
+                "optionB": "Remote Procedure Calls",
+                "optionC" : "Reusable Application Components",
+                "optionD": "None of the above",
+                "rightAnswer" : "Representational State Transfer (REST)"
+                    
+        },
+		{
+                "id": "95",
+                "question": "Registry services such as managing information about service providers, service implementations and service metadata is provided by",
+                "optionA": "WSDL",
+                "optionB": "UDDI",
+                "optionC" : "REST",
+                "optionD": "SPARQL",
+                "rightAnswer" : "UDDI"
+                    
+        },
+		{
+                "id": "96",
+                "question": "Why SOAP is used as a protocol for accessing a web service?",
+                "optionA": "SOAP platform and language independent, allows to get around firewalls",
+                "optionB": "SOAP is based on HTML",
+                "optionC" : "SOAP is designed to communicate through LAN",
+                "optionD": "All of the above",
+                "rightAnswer" : "SOAP platform and language independent, allows to get around firewalls"
+                    
+        },
+		{
+                "id": "97",
+                "question": "What is new about web services?",
+                "optionA": "XML – a common language for describing RMC",
+                "optionB": "XML – a common language for describing web services",
+                "optionC" : "XML – a common language for describing web service directories",
+                "optionD": "All of the above",
+                "rightAnswer" : "All of the above"
+                    
+        },
+		{
+                "id": "98",
+                "question": "Which of the following is used to perform remote procedure calls in web services?",
+                "optionA": "HTTP-RPC",
+                "optionB": "XML-HTTP",
+                "optionC" : "XML-RPC",
+                "optionD": "SOAP-XML",
+                "rightAnswer" : "XML-RPC"
+                    
+        },
+		{
+                "id": "99",
+                "question": "Service Transport, XML Messaging, Service Description and Service Discovery are four layers of",
+                "optionA": "web service implementing client components",
+                "optionB": "web service protocol stack",
+                "optionC" : "web service supporting repository",
+                "optionD": "web service supporting request and response components",
+                "rightAnswer" : "web service protocol stack"
+                    
+        },
+		{
+                "id": "100",
+                "question": "Why we use @Override annotation?",
+                "optionA": "To say to the compiler not to execute this override method.",
+                "optionB": "To say to compiler that this method is deprecated",
+                "optionC" : "To check whether the subclass method is overrides from the superclass or not",
+                "optionD": "None of the above",
+                "rightAnswer" : "To check whether the subclass method is overrides from the superclass or not"
+                    
+        }
+		]
+}
