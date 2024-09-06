@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
-            card_view:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+            card_view:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
     </LinearLayout>
 

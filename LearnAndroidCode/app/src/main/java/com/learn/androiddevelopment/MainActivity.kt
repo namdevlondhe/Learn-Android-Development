@@ -16,10 +16,10 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import com.learn.androiddevelopment.adapter.HomeSubjectListAdapter
+import com.learn.androiddevelopment.databinding.ActivityMainBinding
 import com.learn.androiddevelopment.model.SubTopic
 import com.learn.androiddevelopment.model.Topic
 import com.learn.androiddevelopment.util.AppFunctions
-import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
@@ -36,7 +36,8 @@ class MainActivity : AppCompatActivity(), HomeSubjectListAdapter.ItemClickListen
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setSupportActionBar(binding.toolbar)
 
         createTopicList()
 
@@ -111,7 +112,7 @@ class MainActivity : AppCompatActivity(), HomeSubjectListAdapter.ItemClickListen
             sendIntent.putExtra(
                 Intent.EXTRA_TEXT,
                 resources.getString(R.string.hint_app_share) +
-                        "" + BuildConfig.APPLICATION_ID
+                        "" + "com.learn.androiddevelopment"
             )
             sendIntent.type = "text/plain"
             startActivity(sendIntent)

@@ -2,11 +2,11 @@ package com.learn.androiddevelopment
 
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
-import kotlinx.android.synthetic.main.activity_help.*
 
 class HelpActivity : AppCompatActivity() {
 
@@ -21,7 +21,8 @@ class HelpActivity : AppCompatActivity() {
                 getString(R.string.help_note3) + "\n\n" +
                 getString(R.string.help_note4) + "\n\n" +
                 getString(R.string.help_note5) + "\n\n"
-        textViewHelp.setText(strHelp)
+        val textViewHelp: TextView = findViewById(R.id.textViewHelp)
+        textViewHelp.text = strHelp
 
         MobileAds.initialize(this) { }
         val mAdView: AdView = findViewById(R.id.adViewHome)
